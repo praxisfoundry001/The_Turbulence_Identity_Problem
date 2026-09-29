@@ -1,0 +1,3549 @@
+﻿Turbulence Identity Package — Specialist Companion
+Purpose
+This companion is the execution and interpretation manual for the turbulence identity package. It is written for a specialist who needs to move from the scientific protocol in The Turbulence Identity Problem to the released machine contract, execute that contract against the Structural Flow Universal Kernel, and report the result without confusing formal conformance with empirical truth.
+The companion does not redefine turbulence, alter the scientific protocol, or create a second scientific authority. It explains how the released scientific and machine objects fit together and what an independent executor must record at each step.
+1. Package architecture
+The public package contains four functional layers.
+1.1 Scientific anchor
+The Turbulence Identity Problem is the field-facing scientific authority for this package.
+It owns:
+* the turbulence identity question;
+* the exact declared first-closure scope, Σ_C;
+* the DLBTF and HFN scientific burdens;
+* the roster and scientific roles of the test cases;
+* the empirical protocol;
+* the meanings of the scientific result states;
+* the global dispositions CLOSED WITHIN Σ_C, NOT CLOSED WITHIN Σ_C, and NOT YET ADJUDICABLE WITHIN Σ_C;
+* the scientific claim ceiling.
+At the time of this companion release, the audited anchor is The Turbulence Identity Problem v1.2. An execution must record the exact compatible anchor version it actually uses.
+1.2 Turbulence machine bundle
+The released turbulence-specific machine package is:
+Turbulence_DLBTF_HFN_Compound_Identity_APPEND_BUNDLE_v1.0.lean
+It contains:
+* DLBTF Identity Adapter + Contract v1.2;
+* DLBTF + HFN Compound Identity Adapter v0.5.
+The bundle maps already-adjudicated turbulence-domain states into formal predicates, contracts, certificates, blockers, and conditional implications.
+It does not determine whether the underlying physical evidence is true or adequate.
+1.3 Universal Kernel
+The turbulence bundle executes over:
+Structural_Flow_Universal_Kernel_v1.0.lean
+The Universal Kernel supplies reusable domain-neutral contract grammar. The turbulence program does not modify that universal structure.
+The Kernel does not replace the scientific anchor, the turbulence adapter, or domain scientific authority.
+1.4 This companion
+This companion owns public guidance for:
+* package identification;
+* scientific-to-machine translation;
+* contract population;
+* execution order;
+* interpretation of machine predicates;
+* burden-specific failure and open-state routing;
+* result recording;
+* troubleshooting;
+* public reporting.
+The companion may explain the other package layers. It may not outrank them in the domains they own.
+2. Authority chain
+The package uses a strict authority boundary:
+PHYSICS DESCRIBES THE PHYSICAL REALIZATION AND THE EVIDENCE BEARING ON EACH SCIENTIFIC BURDEN.
+THE FROZEN SCIENTIFIC PROTOCOL ADJUDICATES THE APPLICABLE SCIENTIFIC STATE.
+THE ADAPTER MAPS THAT ADJUDICATED STATE INTO THE MACHINE CONTRACT.
+LEAN CHECKS THE ENCODED CONDITIONAL STRUCTURE.
+THE COMPANION EXPLAINS EXECUTION, INTERPRETATION, AND REPORTING.
+Each sentence does a different job.
+2.1 Physics and domain evidence
+Physics remains authoritative over the physical realization and over the evidence from which the protocol must decide.
+This includes, among other things:
+* whether a flow or comparator has the independently established scientific standing assigned to it;
+* whether a case lies within Σ_C or has the required comparator standing;
+* the β observables and calibrated tolerances;
+* whether β is actually preserved;
+* whether a transfer or history representation is competent;
+* whether an intervention is physically competent;
+* whether an enlargement axis is physical and remains within the same regime family;
+* statistical power, numerical convergence, and uncertainty;
+* whether recurrence discrimination is adequate;
+* whether a synthetic comparator satisfies or fails the required physical provenance;
+* empirical truth.
+Neither Lean nor the adapter manufactures any of those facts.
+2.2 Frozen protocol
+The scientific protocol owns the predeclared rules that convert evidence into an adjudicated scientific state.
+Those rules determine, where applicable, whether a burden is:
+* discharged;
+* violated;
+* unresolved;
+or whether a domain-specific status such as BOUNDED, OPENING, UNRESOLVED, NONDEGENERATE, RECURRENT-THIN, or a provenance status has been earned.
+The information order matters. A decision rule fixed after seeing the decisive result is not equivalent to one frozen before outcome inspection.
+2.3 Turbulence adapter and contract
+The turbulence adapter owns the machine-side representation of those adjudicated states.
+It defines the turbulence-specific:
+* entry and downstream burdens;
+* seat roles;
+* DLBTF physical faces;
+* transfer-support statuses;
+* HFN faces;
+* history-family statuses;
+* external-mimic provenance statuses;
+* composite pass and exclusion predicates;
+* adverse, blocking, open, invalid, redundancy, and residual-identity certificates;
+* compound IdentitySupported predicate.
+The adapter maps. It does not independently adjudicate the physics.
+2.4 Universal Kernel
+The Universal Kernel supplies the reusable formal contract surface beneath the turbulence adapter.
+Among other things, it supplies the common three-way Disposition vocabulary and the universal entry/downstream contract grammar used by the turbulence package.
+A domain-specific scientific meaning is not created merely by the generic word violated, open, or discharged. The turbulence adapter and scientific protocol determine what a state means at a particular burden location.
+2.5 Lean
+Lean checks the formal objects that have been supplied to it.
+A successful execution may establish that:
+* the populated states satisfy the encoded definitions;
+* a named composite predicate follows from those states;
+* a formal certificate or blocker is constructible;
+* the released contract composes as declared.
+Lean does not establish:
+* that a real flow is turbulent or nonturbulent;
+* that empirical Σ_C membership is correct;
+* that β was physically preserved;
+* that CTRR was measured correctly;
+* that an intervention was competent;
+* that BOUNDED or OPENING is physically true;
+* that NONDEGENERATE or RECURRENT-THIN is physically true;
+* that physical provenance is satisfied or failed;
+* that the experiment was actually performed under the frozen protocol;
+* that turbulence identity is empirically closed.
+Machine-clean is not physics-confirmed.
+3. Version identity
+The package contains several independent versioned objects. Their version numbers identify different things and are not expected to match.
+3.1 Anchor version
+The anchor version identifies the field-facing scientific artifact.
+An execution must record the exact anchor version used.
+3.2 Append-bundle version
+The append-bundle version identifies the distributed turbulence machine package.
+The current released bundle is v1.0.
+3.3 DLBTF component version
+The DLBTF component version identifies the DLBTF Identity Adapter + Contract.
+The current released component is v1.2.
+3.4 Compound component version
+The compound component version identifies the DLBTF + HFN Compound Identity Adapter.
+The current released component is v0.5.
+3.5 Universal Kernel version
+The Universal Kernel version identifies the reusable domain-neutral machine base.
+The current turbulence release uses Structural_Flow_Universal_Kernel_v1.0.lean.
+3.6 Companion version
+The companion version identifies the public execution and interpretation manual.
+A companion revision does not, by itself, change the scientific anchor, adapter, contract, or Kernel.
+Every execution record should therefore identify, separately:
+* exact scientific anchor version;
+* turbulence append-bundle version;
+* DLBTF adapter / contract version;
+* compound adapter version;
+* Universal Kernel version;
+* companion version or compatible companion reference used for execution guidance.
+4. Anchor compatibility
+The turbulence machine bundle is intentionally not tied forever to one anchor version number.
+A later released version of The Turbulence Identity Problem may remain compatible with the same machine bundle if the later anchor preserves the machine-relevant semantics that the bundle encodes.
+Compatibility requires preservation of the relevant:
+* DLBTF ∧ HFN identity criterion;
+* scientific burden meanings;
+* status spaces;
+* role-routing logic;
+* scientific-to-machine mapping;
+* scope relation represented at the machine boundary;
+* global result-routing logic that bears on the machine interface.
+Changes limited to prose, exposition, references, organization, reporting language, or other non-machine-semantic material do not by themselves require a new adapter or contract.
+A later anchor is not automatically compatible merely because it carries the same title. If an anchor changes a machine-relevant scientific burden, scope relation, role meaning, status meaning, adjudication route, or encoded dependency, compatibility must be re-adjudicated before that anchor is used with the existing machine bundle.
+This rule prevents two opposite errors:
+* version chasing, in which harmless scientific-document iteration needlessly forces machine releases;
+* silent semantic drift, in which a changed scientific contract is used with an adapter that still encodes an older one.
+5. Machine-package version discipline
+The bundle and its contained components also version independently.
+A packaging, header, or documentation-only change may change the outer bundle version without requiring a contained component version change.
+A semantic change to the DLBTF adapter / contract should change the DLBTF component version and the containing bundle version.
+A semantic change to the compound adapter should change the compound component version and the containing bundle version.
+A Universal Kernel change is independent and is warranted only when the pressure reaches reusable domain-neutral machine structure.
+The public execution record should therefore never infer compatibility from matching version numbers. Compatibility is a semantic relation, not a numbering coincidence.
+6. Exact execution binding
+Future-proof compatibility does not remove the need for an exact execution record.
+For every confirmatory execution, record:
+* the exact compatible scientific anchor version;
+* the exact Σ_C declaration from that anchor;
+* the exact turbulence append bundle;
+* the exact DLBTF component version;
+* the exact compound component version;
+* the exact Universal Kernel version;
+* the companion version or compatible guidance used;
+* source hashes and Lean environment information where practical.
+This separates two questions:
+1. Is this anchor compatible with this machine package?
+2. Which exact compatible objects were used in this execution?
+The first is an architecture question. The second is an audit question. Both matter.
+7. The Warrant naming firewall
+The Lean source contains identifiers such as:
+* coreWarrant;
+* domainWarrant;
+* roleWarrant;
+* faceWarrant;
+* supportWarrant;
+* historyDomainWarrant;
+* historyFaceWarrant;
+* historyStatusWarrant;
+* provenanceStatusWarrant.
+In Lean, these names refer to formal witnesses that the declared evidence predicate holds for the declared formal state.
+They must not be paraphrased as claims that:
+* Lean warrants the physics;
+* Lean establishes empirical adequacy;
+* a proof term validates the experiment;
+* machine population creates scientific standing.
+Where the scientific anchor uses language such as “independently warranted,” that remains a scientific statement: the relevant regime, role, comparator, or other standing has an independent domain basis not created by DLBTF, HFN, the desired verdict, or the machine proof.
+8. The closure firewall
+The strongest supportive machine predicate in the released compound adapter is IdentitySupported.
+Its meaning is formal:
+the supplied machine states satisfy the released encoded compound-support contract.
+Its non-meaning is equally important:
+Lean has not thereby proved that actual turbulence is DLBTF ∧ HFN.
+Scientific closure requires two things together:
+SCIENTIFICALLY VALID, FAITHFULLY POPULATED EXECUTION RECORD
++
+MACHINE IdentitySupported
+→
+SCIENTIFIC CLOSED WITHIN Σ_C
+The final scientific disposition remains anchor-owned.
+Likewise, an adverse or open machine certificate receives scientific meaning only after the scientific record supporting the populated states has been checked. A machine proposition cannot turn an invalid or unfaithfully populated execution into empirical evidence.
+9. Operator rule
+When scientific and machine language appear together, keep the direction of authority explicit:
+* evidence comes from physics;
+* adjudicated scientific states come from the frozen protocol;
+* formal states come from mapping those adjudications;
+* machine consequences come from Lean;
+* scientific reporting returns to the anchor-owned disposition and claim ceiling.
+The purpose of the machine layer is auditability of the conditional structure, not replacement of scientific judgment.
+10. Scientific object
+Within the declared first-closure scope Σ_C, the candidate empirical identity is:
+turbulence ⇔ DLBTF ∧ HFN
+where:
+DLBTF = Distributed Load-Bearing Transfer Flow
+and:
+HFN = History-Family Nondegeneracy.
+The equivalence is the hypothesis being tested. It is not a result supplied in advance.
+DLBTF and HFN remain separate because they answer different physical failure questions.
+DLBTF asks whether the nonlinear-transfer capacity required by the regime remains dependent on causally load-bearing transfer support that does not close to one uniformly bounded physical transfer interface across the declared physical enlargement ladder.
+HFN asks whether the independently established regime supports a nondegenerate family of realized histories, or instead collapses, after the frozen quotient and recurrence test, onto a dynamically thin recurrent itinerary or finite thin recurrent family.
+The two burdens are conjunctive but not interchangeable.
+A flow may pressure or fail one side while surviving the other. Combining them into one generic “turbulence score” would erase the location of a scientifically meaningful failure.
+For each flow, the two scientific assays therefore retain their own three-way status spaces:
+DLBTF
+* BOUNDED
+* OPENING
+* UNRESOLVED
+HFN
+* NONDEGENERATE
+* RECURRENT-THIN
+* UNRESOLVED
+Failure to establish OPENING does not establish BOUNDED.
+Failure to establish NONDEGENERATE does not establish RECURRENT-THIN.
+An unresolved result remains unresolved unless some separate competent burden already supplies a decisive falsifier.
+For a required turbulent positive or validly opened holdout:
+* competent BOUNDED defeats DLBTF necessity;
+* competent RECURRENT-THIN defeats HFN necessity;
+* one demonstrated necessary-conjunct failure is sufficient to defeat the proposed conjunction at that seat.
+For a nonturbulent comparator:
+* competent DLBTF failure may exclude it;
+* competent HFN failure may exclude it;
+* where the comparator is a synthetic false substitute, competent failure of the required physical provenance may also exclude it;
+* competent satisfaction of the complete applicable criterion pressures sufficiency.
+The result at one flow is therefore not simply “turbulent” or “not turbulent.” It is a located record of which independently specified identity burdens passed, failed, or remained unresolved under the frozen protocol.
+11. Declared first-closure scope
+The first experiment is deliberately narrower than “all turbulence.”
+The exact anchor-owned first-closure scope is:
+Σ_C = established three-dimensional, single-phase, constant-property, non-rotating, non-stratified, non-buoyant, incompressible Newtonian Navier–Stokes turbulence in canonical homogeneous, free-shear and smooth-wall flow families, away from laminar–turbulent transition.
+That declaration is part of the scientific contract.
+It must not be widened by shorthand in the companion, by a broad use of the word “turbulence,” or by a machine execution that happens to accept a seat representation formally.
+The following are outside the first-closure jurisdiction:
+* compressible turbulence;
+* rotating turbulence;
+* strongly stratified or buoyant turbulence;
+* rough-wall turbulence;
+* strongly curved or separated-wall regimes;
+* multiphase or reactive turbulence;
+* magnetohydrodynamic or plasma turbulence;
+* quantum or superfluid turbulence;
+* generic spatiotemporal chaos.
+These are not negative cases for the first experiment.
+They are outside the declared jurisdiction.
+A successful result inside Σ_C therefore does not silently extend to them.
+Likewise, a case outside Σ_C cannot be inserted as an adversarial negative merely because it would be convenient for the discrimination test. The positive and negative surfaces must remain scientifically admissible for the role assigned to them.
+11.1 Scope at the machine boundary
+The turbulence contract carries explicit machine burdens for scope binding.
+On the DLBTF side:
+declaredPhysicalScopePinned
+records that the execution has been bound to the declared scientific scope before decisive outcomes.
+On the HFN / compound side:
+historyPhysicalScopeAligned
+requires the history assay to operate under the same scope.
+The Universal Kernel also carries its domain-neutral scope pin as part of the universal translation surface.
+These machine burdens do not determine whether a physical flow actually belongs in Σ_C.
+That remains a scientific judgment supported by the domain record.
+The machine checks that the declared scope relationship has been populated consistently with the contract. It does not independently classify the physics.
+For confirmatory execution, the record should therefore contain both:
+1. the exact Σ_C text from the compatible anchor;
+2. the scientific basis for admitting each relevant positive flow or comparator to the role assigned to it.
+A scope question left genuinely unresolved remains a blocker.
+A post-result scope change used to remove an inconvenient result is execution-invalid.
+A case that is outside jurisdiction remains outside jurisdiction rather than becoming a negative result.
+12. Frozen scientific roster
+The roster is a validation and adjudication surface.
+It is not the definition of turbulence.
+The scientific standing of a seat is established independently of DLBTF, HFN, and the desired experimental outcome. That independence is what allows the test to fail honestly.
+12.1 Core positive families
+The frozen core-positive surface is:
+P1 — forced homogeneous isotropic turbulence
+P2 — freely decaying homogeneous isotropic turbulence
+P3 — homogeneous shear turbulence
+P4 — primary internal smooth-wall turbulent channel
+P5 — turbulent round jet
+P6 — zero-pressure-gradient turbulent boundary layer
+These six families expose the candidate to substantial variation within Σ_C.
+They are not declared turbulent because they satisfy DLBTF ∧ HFN.
+Their scientific standing precedes the proposed criterion.
+Accordingly, if one validly executed core positive returns a competent necessary-conjunct failure, the candidate is answerable to that result. The flow is not removed from the positive surface after the fact.
+12.2 Negative and adversarial comparators
+The frozen adversarial surface is:
+N1 — laminar periodic cylinder wake
+N2 — steady or traveling exact coherent solution
+N3 — periodic or quasiperiodic coherent branch
+N4 — low-dimensional chaotic Taylor–Couette case
+N5 — synthetic or fake-turbulence false substitute
+N6 — laminar zero-pressure-gradient flat-plate boundary layer
+These cases do not form one physical alternative class.
+Their common job is adversarial.
+They preserve different pieces of what an overly permissive turbulence criterion might mistake for identity:
+* coherent fluid dynamics;
+* nonlinear transfer;
+* recurrence;
+* chaos;
+* turbulence-like statistics;
+* related geometry or flow organization.
+Different comparators are therefore allowed to be excluded for different reasons.
+A negative case does not have to fail both DLBTF and HFN.
+One competent necessary-burden failure is enough.
+For N5, competent failure of the required physical provenance supplies an additional scientifically permitted exclusion route.
+The dangerous result is the opposite one: a scientifically admissible nonturbulent comparator that survives the complete applicable identity burden.
+That is a sufficiency pressure, not a case to be reclassified after the result.
+12.3 Recurrent boundary pair
+The frozen boundary pair is:
+B1a — isolated recurrent / unstable-periodic-orbit object
+B1b — containing turbulent regime family
+These two seats test whether the criterion respects physical level.
+An isolated recurrent object and the larger regime that approaches, shadows, leaves, and revisits recurrent structures are not the same scientific object.
+Their identities and levels are fixed before decisive adjudication.
+The protocol does not require a preselected result pair.
+For example, B1a may legitimately return RECURRENT-THIN while B1b returns NONDEGENERATE, but that pattern is an allowed scientific result rather than a machine requirement.
+The hard requirement is level coherence.
+The execution may not inspect the result and then switch between “orbit” and “regime” descriptions to protect the criterion.
+12.4 Protected within-family holdouts
+The protected portability tests are:
+V1 — turbulent pipe or plane Couette
+V2 — turbulent wake or mixing layer
+The exact implementation selected for each holdout belongs to the frozen scientific protocol.
+The holdouts are kept separate from criterion development so that they can test whether the frozen method carries beyond its primary internal-wall and free-shear implementations.
+Once a holdout is validly opened for decisive adjudication, it carries the same necessity burden as a core positive.
+It is not an optional confirmation.
+A validly opened holdout returning competent BOUNDED or RECURRENT-THIN defeats the corresponding necessity claim.
+A required holdout that remains unresolved prevents class-level closure unless some independent valid result has already established NOT CLOSED.
+If opening a holdout reveals that the frozen method itself is unusable, that execution is invalid for confirmatory use. The exposed holdout result cannot then be used to retune the method and adjudicate the same holdout again as though it had remained protected.
+13. Scientific role and machine role
+Scientific role and machine role are related, but they are not identical concepts.
+The scientific record must preserve at least four distinctions:
+1. the seat’s scientific identity;
+2. its scientific role in the experiment;
+3. its theorem-facing machine role;
+4. any additional protocol status, such as holdout protection or frozen boundary level.
+The released machine role vocabulary is:
+positiveCore
+hardNegative
+boundarySeat
+externalMimic
+These are routing roles inside the formal contract.
+They are not replacements for the richer scientific metadata.
+13.1 Core positives
+P1–P6 map to:
+SeatRole.positiveCore
+This means that the final machine theorem requires the applicable positive compound burden to pass at those seats.
+It does not mean that Lean establishes their turbulent standing.
+That standing comes from the independent scientific record.
+13.2 Ordinary negative comparators
+N1, N2, N3, N4, and N6 route through:
+SeatRole.hardNegative
+The machine burden is not that every hard negative fail in the same way.
+The compound contract permits competent exclusion through the applicable necessary-conjunct failure.
+Their scientific identities remain distinct even though their theorem-facing role is shared.
+13.3 Synthetic false substitute
+N5 maps to:
+SeatRole.externalMimic
+This distinction is deliberate.
+N5 is not forced into hardNegative merely because it is scientifically nonturbulent.
+The external-mimic route preserves the additional physical-provenance question required by the anchor.
+The compound machine surface therefore allows N5 to be excluded through:
+* competent DLBTF failure;
+* competent HFN failure;
+* competent failure of the required physical provenance.
+If an external mimic instead competently passes the compound criterion and satisfies the required physical provenance, it becomes a sufficiency counterexample rather than disappearing from the final theorem.
+13.4 Boundary seats
+B1a and B1b map to:
+SeatRole.boundarySeat
+Sharing the same machine role does not merge the scientific objects.
+The execution record must separately retain:
+* B1a versus B1b identity;
+* frozen physical level;
+* applicable β record;
+* level-specific scientific adjudication;
+* boundary-level coherence.
+The final machine burden is coherence of the frozen levels, not a predeclared RECURRENT-THIN / NONDEGENERATE pair.
+13.5 Holdouts
+The released machine vocabulary has no separate holdout constructor.
+After a holdout is validly opened for decisive adjudication, its theorem-facing role is:
+SeatRole.positiveCore
+This does not erase its scientific identity as a protected holdout.
+The execution record must separately retain:
+* which seat was the holdout;
+* the scientific family it represents;
+* its protection status before opening;
+* the opening event;
+* the no-tuning record;
+* its eventual machine role.
+The machine sees the positive necessity burden.
+The scientific record preserves why that positive was a holdout.
+13.6 Role entry burdens
+The adapter carries several entry burdens that protect this routing before decisive downstream use.
+Among them are:
+seatRosterFrozen
+seatPinned (seat)
+seatRoleWarrantAvailable (seat)
+On the HFN / compound side, the package additionally carries level-specific entry burdens such as:
+historySeatLevelPinned (seat)
+These burdens make the declared roster, seat identity, theorem-facing role, and physical level explicit at the machine boundary.
+They do not independently prove that the scientific assignments are correct.
+The executor must therefore preserve the chain:
+independent scientific standing
+→ frozen scientific role
+→ theorem-facing machine role
+→ downstream adjudication
+The direction must not be reversed.
+A machine role is populated because the scientific record licenses that routing.
+The scientific standing is not inferred from the machine role.
+14. Scope-and-role execution rule
+Before any β, DLBTF, HFN, provenance, or compound result is allowed to carry identity weight, the confirmatory record should make the following answerable for every seat:
+* What physical case is this?
+* What is its independent scientific standing?
+* Is it inside Σ_C, or what comparator jurisdiction licenses its use?
+* What scientific role does it have in the frozen roster?
+* What theorem-facing SeatRole represents that job?
+* Is it a protected holdout, boundary object, or external mimic requiring additional metadata?
+* Was its identity, role, and physical level fixed before decisive outcome inspection?
+* Has any later reclassification been used to rescue the candidate?
+If those questions cannot be answered from the record, the machine population is not yet sufficient for a scientific closure claim.
+The next layer is β: the common fidelity burden that determines whether the compared states, interventions, continuations, and histories still answer for the same independently established regime.
+15. β — the shared fidelity burden
+Every decisive flow is evaluated under a preregistered reference-regime fidelity specification, denoted β.
+β answers a basic question:
+Does the comparison still answer for the same independently established physical regime in the ways that matter to this assay?
+The concrete observables may differ from one flow family to another. A round jet, homogeneous isotropic turbulence, channel flow, and a boundary layer do not have identical natural diagnostics. What remains invariant is the scientific job β must perform.
+For every decisive flow, β carries four requirements:
+1. preservation of the relevant budgets;
+2. preservation of continuation or development of the reference regime;
+3. preservation of the causal-response behavior used by the assay;
+4. preservation of the state-distribution features required to establish that the comparison still represents the same independently established regime.
+The criterion therefore does not reduce fidelity to one spectrum, one profile, one statistic, or one visual resemblance.
+A reduced interface that reproduces familiar statistics while corrupting a relevant budget has not preserved β.
+A system that preserves the budget but destroys the required temporal or downstream continuation has not preserved β.
+A system that retains both but changes the intervention-response behavior on which the causal assay depends has not preserved β.
+The same rule applies in the other direction: matching the causal response while failing the required state-distribution or regime-standing burden does not establish β either.
+All four jobs remain live.
+15.1 One fidelity question, flow-specific observables
+The protocol permits flow-specific observables because the physics differs across the roster. It does not permit different epistemic standards. For each seat, the specialist must instantiate the four β jobs using observables appropriate to that physical case and freeze the associated mappings and tolerances before decisive adjudication. The resulting β implementations may therefore look different while performing the same scientific work. This distinction is important:
+same scientific job does not require identical measurement coordinates.
+15.2 Positive and negative symmetry
+β applies to both sides of the discrimination problem. A negative comparator cannot be excluded merely because it was subjected to a stricter fidelity rule than the positives. A positive cannot be protected by a weaker rule. Where the scientific role permits comparison, the same four fidelity jobs remain answerable.
+Consequently:
+   * a positive flow that competently fails a necessary conjunct after satisfying its preregistered β burden presents a genuine necessity problem;
+   * a nonturbulent comparator that satisfies the complete applicable criterion under its preregistered β burden presents a genuine sufficiency problem.
+β is therefore part of the firewall against an asymmetric test.
+15.3 Freeze and qualification are different burdens
+The machine contract distinguishes between fixing the β rule and establishing that β was actually satisfied. Before decisive outcomes, the DLBTF entry surface includes:
+betaDefinitionFrozen (seat)
+and:
+betaDecisionRuleFrozen (seat).
+These record that the scientific meaning of β and the rule used to adjudicate it were fixed before the outcome. They do not establish that a particular seat later preserved β. Actual per-seat adjudication enters downstream through:
+betaQualification (seat).
+The released predicate:
+BetaQualifiedAtSeat
+requires that downstream β qualification to be discharged.
+The distinction is:
+β definition frozen ≠ β satisfied.
+β decision rule frozen ≠ β satisfied.
+The former protects information order. The latter is a scientific result.
+15.4 One β verdict shared by DLBTF and HFN
+The compound package does not create a second independent β verdict for HFN.
+The history-side evaluation reuses the same per-seat BetaQualifiedAtSeat carried by the transfer contract. This matters because DLBTF and HFN are supposed to answer different identity questions about the same independently established regime. They may interrogate different structures, but they do not get to preserve different versions of the flow. The execution record should therefore contain one authoritative β qualification per seat, supported by the complete four-job scientific record.
+15.5 β failure routing
+A β problem does not automatically answer the turbulence identity question.
+If the per-seat β evidence is inadequate, contradictory, or unresolved, the relevant identity assay loses authority to use that result.
+At the machine level:
+      * betaQualification = discharged permits the β-dependent evaluation to proceed;
+      * betaQualification = violated is an adjudication blocker;
+      * betaQualification = open is an unresolved adjudication blocker.
+A failed β qualification is not automatically:
+      * BOUNDED;
+      * OPENING;
+      * RECURRENT-THIN;
+      * NONDEGENERATE;
+      * a necessity failure;
+      * a sufficiency failure.
+It says the comparison did not preserve the required fidelity burden strongly enough to carry the intended identity inference. Absent another independently earned adverse result, the scientific route remains NOT YET ADJUDICABLE WITHIN Σ_C.
+A different problem occurs if the β definition or decision rule itself was changed after decisive outcomes. That is not merely an inadequate assay result. It is an execution-integrity failure.
+16. DLBTF — the transfer-side question
+Distributed Load-Bearing Transfer Flow asks whether the nonlinear-transfer capacity required by the independently established regime can be replaced by one uniformly bounded physical transfer interface while β remains satisfied across admissible physical enlargement.
+The operative question is not:
+How large is the numerical representation?
+It is:
+How much causally sufficient physical transfer support must remain available for the β-relevant regime burden to continue carrying as the physical problem is enlarged?
+That distinction excludes several common substitutions. DLBTF is not raw:
+         * grid size;
+         * Fourier-mode count;
+         * latent dimension;
+         * state-space dimension;
+         * attractor dimension;
+         * number of nonlinear terms.
+Those quantities may matter to an implementation, but none is the DLBTF object merely by being large.
+The object is the physical transfer interface through which β-relevant causal continuation is carried.
+16.1 Physical enlargement
+The enlargement axis must enlarge the physical problem rather than merely the numerical description.
+Increasing numerical resolution, adding basis functions, reducing the time step, or increasing floating-point precision does not by itself constitute physical enlargement.
+An admissible enlargement changes a preregistered physical control while keeping the case within the same independently established regime family and declared scope.
+The machine entry surface therefore separates:
+lawfulEnlargementAxisPinned (seat)
+from:
+enlargementLadderFrozen (seat).
+The first records which physical direction of enlargement has been declared. The second records the finite ladder over which the confirmatory assay will be executed.
+Whether that physical axis is scientifically appropriate remains a domain judgment.
+16.2 The bounded-interface challenge
+The BOUNDED side is existential.
+One competent bounded physical transfer-interface construction is enough.
+The challenger is allowed to use a sophisticated interface. Memory terms, nonlocal couplings, auxiliary variables, stochastic internal states, latent variables, learned dynamics, or modified evolution operators may all be part of a proposed bounded construction if they actually carry information across the relevant causal cut.
+They must, however, be counted.
+A nominally small interface cannot earn BOUNDED by hiding required transfer capacity in uncounted memory, state, coupling, or opaque latent machinery.
+For that reason, the entry surface separately freezes:
+reductionClosureFamilyFrozen (seat)
+and:
+closureAccountingRuleFrozen (seat).
+BOUNDED is earned when a competent bounded transfer-interface schema survives the preregistered physical enlargement ladder while preserving the full β burden under the frozen accounting rule.
+No exhaustive search over every imaginable model is required.
+One successful competent construction is sufficient.
+16.3 Failed searches do not establish OPENING
+The converse inference is prohibited.
+A failed bounded-interface search establishes only that the tested candidate failed. Many failed searches still establish only that many tested candidates failed.
+They do not establish that no competent bounded interface exists.
+The machine therefore carries an explicit:
+supportSearchAdequacy (seat)
+burden, but adequate bounded-interface search is not itself the positive evidence for OPENING.
+OPENING requires a different evidentiary route: a positive lower bound on causally required transfer capacity.
+That is the job of CTRR.
+17. Transfer-support status
+For each applicable seat, the scientific transfer-support result is exactly one of:
+         * BOUNDED
+         * OPENING
+         * UNRESOLVED
+The machine field is:
+supportStatus.
+Its constructors are:
+         * bounded
+         * opening
+         * unresolved
+These states are mutually distinct scientific claims.
+17.1 BOUNDED
+BOUNDED means that a competent uniformly bounded physical transfer-interface schema preserves β across the preregistered physical enlargement ladder under the frozen closure-accounting rule.
+At a required turbulent positive or validly opened holdout, competent BOUNDED is a direct DLBTF necessity falsifier.
+At an appropriate negative comparator, BOUNDED can instead supply a valid exclusion route.
+The same status therefore has different global significance depending on the independently frozen scientific role of the seat.
+17.2 OPENING
+OPENING is a positive finite experimental claim.
+It requires evidence that the lower bound on causally required transfer capacity continues to grow beyond uncertainty across the powered physical enlargement ladder while the required adequacy, novelty, and load-bearing controls remain satisfied.
+OPENING does not mean:
+         * infinite complexity has been proved;
+         * CTRR diverges under indefinite enlargement;
+         * no finite turbulence model can exist;
+         * the tested rank is a global minimum model dimension;
+         * every untested realization has the same property.
+The result is bounded by the physical ladder actually tested.
+17.3 UNRESOLVED
+UNRESOLVED means that neither BOUNDED nor OPENING has been competently earned.
+A powered plateau may block OPENING without establishing BOUNDED.
+An inadequate bounded-interface search may block a particular inference without establishing OPENING.
+A representation disagreement may leave the transfer question unresolved. Insufficient power may do the same.
+UNRESOLVED is therefore not a compromise value between BOUNDED and OPENING.
+It is the statement that neither positive scientific claim has yet earned the required evidentiary standing.
+18. The four DLBTF constitutive faces
+Transfer-support status does not carry identity weight by itself.
+The released adapter also requires four physical faces of the DLBTF claim:
+         * realizedHistory
+         * nonlinearTransfer
+         * loadBearingness
+         * causalContinuation
+These are represented through the per-seat machine face state and assembled by:
+PhysicalFacesPass.
+A face-level violation is exposed through the constitutive-face violation route.
+18.1 Realized-history standing
+The transfer claim must concern realized physical continuation of the relevant case rather than a merely formal or static possibility.
+The scientific record must establish that the assay is interrogating the realized-history burden the candidate identity is supposed to describe.
+18.2 Nonlinear-transfer involvement
+The relevant continuation must actually involve the nonlinear-transfer structure being interrogated.
+A response that is entirely carried by some unrelated mechanism does not become evidence for DLBTF merely because nonlinear terms exist elsewhere in the model.
+18.3 Load-bearingness
+The identified transfer support must matter to the β-relevant function.
+A mathematically distinguishable response direction is not identity-bearing merely because it increases a matrix rank.
+The positive assay therefore has to show that removing or suppressing the claimed support produces the required β-relevant deficit under the frozen intervention design.
+18.4 Causal continuation
+The claimed transfer directions must bear on distinguishable β-relevant future behavior.
+The question is not merely whether an intervention produces some disturbance.
+It is whether independent changes to nonlinear transfer produce independently distinguishable future consequences that matter to the frozen β burden.
+18.5 Face violations and scientific meaning
+A face state uses the generic machine vocabulary:
+         * discharged
+         * violated
+         * open
+The released predicate ConstitutiveFaceViolated locates at least one explicitly violated DLBTF face at a seat.
+Its scientific meaning still depends on adequacy and role: a competent constitutive-face violation can function as a local identity falsifier only when the surrounding EvaluationAdequate burden is independently satisfied.
+The word violated alone is never enough to determine the global scientific result.
+19. DLBTF evaluation adequacy
+Before a transfer-support status can carry identity-level weight, the released machine contract requires a base adequacy predicate:
+EvaluationAdequate.
+That predicate requires discharge of:
+         * supportAdjudication
+         * representationNeutrality
+         * supportSearchAdequacy
+         * powerAdequacy
+         * parameterEnlargementRobustness
+         * BetaQualifiedAtSeat
+Each performs a different scientific job.
+19.1 Support adjudication
+supportAdjudication records that the transfer-support verdict itself was competently adjudicated under the frozen scientific rule.
+It is not the same thing as the supportStatus value.
+The status says what the result is.
+The adjudication burden says whether that result is competent for identity use.
+19.2 Representation neutrality
+No one transfer representation is allowed to dictate the identity result merely by coordinate choice.
+The protocol requires competent alternative representations that expose the transfer burden differently.
+Their raw coordinates and raw ranks need not be identical. For identity-level use, however, they must support the same physical transfer-status conclusion directly or through a preregistered mapping that preserves the relevant physical comparison.
+If competent representations cannot be reconciled under the frozen rule, the transfer status remains unresolved rather than being averaged into a preferred answer.
+19.3 Search adequacy
+The bounded-interface challenger search must satisfy its preregistered coverage criterion.
+This requirement keeps the BOUNDED/OPENING comparison scientifically serious.
+It still does not turn failed searches into positive OPENING evidence.
+19.4 Power adequacy
+The transfer result must clear the frozen uncertainty, numerical, statistical, and intervention-related evidentiary standard.
+A rank pattern below the required power or uncertainty threshold cannot be promoted into a transfer verdict merely because its qualitative trend is suggestive.
+19.5 Enlargement robustness
+The result must survive the declared physical enlargement ladder while retaining the same independently established regime family and β burden.
+An apparent opening that disappears once the physical parameter is enlarged competently has not survived the intended test.
+An enlargement that leaves the declared family or crosses the excluded transition boundary is not a valid continuation of the same seat.
+19.6 Base adequacy is role-neutral
+EvaluationAdequate does not itself say whether the transfer result is good or bad for the identity hypothesis.
+It says the support-status result is competent enough to be used.
+The role of the seat and the status then determine the scientific consequence.
+20. OPENING-specific controls
+A competent OPENING claim carries an additional burden beyond base EvaluationAdequate.
+The released predicate:
+OpeningControlsAdequate
+requires:
+         * causalNoveltyAdequacy
+         * suppressionAdequacy
+         * matchedShamAdequacy
+         * restorationOrReplacementAdequacy
+These controls apply to the positive OPENING route.
+They are not generic prerequisites for every competent BOUNDED construction.
+That asymmetry is intentional.
+20.1 Causal novelty
+Growth in response rank is not enough if the larger system merely repeats, rescales, or inherits copies of the same bounded response structure.
+The smaller-system response subspace is therefore mapped into the larger one under a preregistered correspondence.
+The larger system must contain β-relevant causal response content outside the inherited, rescaled, or replicated smaller-system subspace.
+That is the scientific job of:
+causalNoveltyAdequacy.
+20.2 Suppression
+The rank-bearing directions identified by the positive assay must carry load.
+Under the frozen suppression design, suppressing those directions must produce the required β-relevant deficit.
+That burden is represented by:
+suppressionAdequacy.
+20.3 Matched sham
+An intervention can disturb a flow without removing the function being claimed.
+The suppression deficit must therefore be established relative to the preregistered matched-sham comparison rather than attributed automatically to intervention disturbance.
+That burden is:
+matchedShamAdequacy.
+20.4 Restoration or competent replacement
+If the claimed transfer support is genuinely carrying the β-relevant function, restoring the suppressed capacity—or supplying a competence-matched replacement under the frozen rule—must recover the missing function to the required degree.
+That burden is:
+restorationOrReplacementAdequacy.
+20.5 Failure of an OPENING control
+Failure to discharge one of these controls blocks the OPENING identity route.
+It does not automatically establish BOUNDED.
+It does not automatically falsify DLBTF.
+It does not automatically return NOT CLOSED.
+Absent another independently earned adverse result, the scientific question remains unresolved at the affected burden.
+The associated designs and decision rules are frozen before outcome use under the transfer-side pre-outcome integrity burden.
+21. CTRR — the positive lower-bound bridge
+Causal Transfer Response Rank, CTRR, supplies the positive lower-bound route needed for OPENING.
+Its purpose is narrow:
+lower-bound the number of independent transfer-interface directions required to carry distinguishable β-relevant causal response under the declared local factorization assumptions.
+It is not a count of all turbulent degrees of freedom.
+21.1 Local response operator
+For one independently established flow (X), physical enlargement level λ, reference state (x), and competent transfer representation (R), let:
+a ∈ ℝᵖ
+denote a normalized intervention applied to independently defined directions of the nonlinear-transfer contribution.
+Let:
+y ∈ ℝᑫ
+denote the preregistered normalized future response entering the β fidelity burden.
+The intervention defines a local response map:
+Fᴿ(X, λ, x; a) = y,
+with the unperturbed reference at a = 0.
+Its first-order causal response operator is:
+Jᴿ(X, λ, x) = DₐFᴿ(X, λ, x; 0).
+The dimensions (p) and (q) describe the chosen intervention and response coordinates.
+They are not themselves measures of turbulence complexity.
+The object of interest is the number of independent intervention directions that remain distinguishable in β-relevant future response.
+21.2 Factorization lower bound
+Suppose a proposed β-sufficient physical realization carries the intervention effect through (m) independent transfer-interface coordinates:
+z ∈ ℝᵐ
+with factorization:
+a → z(a) → y(z).
+Where the declared local maps are differentiable at the reference state:
+Dₐy = D_z y · Dₐz.
+Therefore:
+rank(Dₐy) ≤ m.
+Hence:
+m ≥ rank(Jᴿ(X, λ, x)).
+The conclusion is conditional and local.
+Under the stated factorization and regularity assumptions, the measured causal response rank supplies a lower bound on the number of independent transfer-interface coordinates through which a β-sufficient response can pass.
+It is not a theorem that every nonlinear turbulence model globally factorizes in this way.
+21.3 Tolerance-aware CTRR
+Exact matrix rank is too brittle for empirical use.
+Let εβ denote the frozen total operator-level error allowance after the permitted causal-response discrepancy and the relevant estimation, numerical, and intervention-linearization uncertainties are included.
+Let:
+σ₁ ≥ σ₂ ≥ ··· ≥ σᵣ ≥ 0
+be the singular values of the normalized response operator.
+For the spectral norm, the optimal error of any rank-m approximation is σₘ₊₁.
+Therefore, if:
+σₘ₊₁ > εβ,
+then no rank-m linear response operator can approximate the measured normalized response operator within the frozen tolerance.
+Define the β-tolerant Causal Transfer Response Rank:
+CTRRεβ(X, λ, x, R) = #{i : σᵢ > εβ}.
+Combining this approximation bound with the differentiable-factorization result from Section 21.2, any β-sufficient physical transfer realization within the declared regularity class must carry at least CTRRεβ independent causal transfer-interface dimensions at that state.
+
+
+This is the positive lower-bound step.
+
+
+Because the tolerance-aware count depends on normalization, the scaling of intervention and response coordinates is part of preregistration. Equivalent-basis normalization checks are required so an apparent change in CTRR cannot be manufactured by coordinate rescaling while leaving the underlying response geometry unchanged.
+
+
+The inference remains local to the declared intervention family, observation horizon, factorization assumptions, and regularity class.
+
+
+It does not identify:
+         * the dimension of the complete Navier–Stokes state;
+         * an attractor dimension;
+         * an inertial-manifold dimension;
+         * a universal minimal turbulence-model dimension.
+A proposed bounded interface also cannot evade the lower bound merely by hiding independent causal-response routes inside memory variables, stochastic internal states, learned coordinates, delayed variables, auxiliary equations, or other uncounted machinery.
+Where such structures carry independent causal response across the declared transfer interface, they belong on the transfer side of the causal cut and must be accounted for under the frozen closure rule.
+21.4 From state-level response to regime-level evidence
+A single state is not the regime. At each physical enlargement level λ and competent representation R, the experiment samples the preregistered ensemble of β-qualified reference states and estimates CTRR with uncertainty for each state.
+Define the regime-level lower bound:
+Lβᴿ(X, λ)
+as the largest integer ℓ for which the preregistered required fraction of β-qualified states has a lower confidence bound of at least ℓ. The required fraction and confidence rule are frozen during calibration. This prevents:
+         * one exceptionally high-rank state from establishing OPENING;
+         * a convenient averaging rule from making systematically high-rank states disappear.
+The resulting regime-level transfer claim must still satisfy:
+         * β qualification;
+         * representation neutrality;
+         * power;
+         * physical-enlargement robustness;
+         * bounded-search adequacy;
+         * causal novelty;
+         * suppression;
+         * matched sham;
+         * restoration or competent replacement.
+CTRR supplies the state-level positive lower-bound bridge. Lβᴿ carries that lower bound into the preregistered regime-level enlargement test. Neither quantity is the entire OPENING verdict by itself.
+21.5 Representation discipline
+Equivalent competent representations need not return identical raw singular values or identical coordinate-level ranks. What they must support is the same scientifically relevant transfer-support conclusion under the frozen cross-representation rule. A representation-specific rank that disappears or reverses under another independently competent representation cannot simply be selected because it favors the desired outcome. Unresolved competent disagreement remains unresolved.
+21.6 Finite-ladder ceiling
+An OPENING result remains a finite experimental statement. OPENING requires supported growth of Lβᴿ(X, λ) across the preregistered physical enlargement ladder beyond its uncertainty envelope while the required adequacy, novelty, and load-bearing controls survive. A statistically powered plateau blocks OPENING. It does not by itself establish BOUNDED. Growth produced only by numerical refinement, without physical enlargement, does not count. Growth produced solely by duplicating an already bounded causal module does not count. A competent finite ladder may therefore support:
+Lβᴿ(X, λ₁) < Lβᴿ(X, λ₂) < ··· 
+over the tested enlargement range.
+It does not establish:
+lim λ→∞ Lβᴿ(X, λ) = ∞.
+Nor does it establish that no finite predictive or useful model can exist. The claim is about the tested causal transfer burden, under the tested physical enlargement, at the tested scientific scope.
+22. DLBTF machine pass and exclusion
+The released machine surface assembles the transfer-side result differently depending on whether the seat is being used as a positive identity case or as an exclusion case.
+22.1 Positive DLBTF pass
+The released predicate:
+DLBTFPassAtSeat
+requires:
+            * all four DLBTF physical faces discharged;
+            * supportStatus = opening;
+            * EvaluationAdequate;
+            * OpeningControlsAdequate.
+No one component substitutes for the others.
+In particular:
+            * OPENING without the four faces is not a DLBTF pass;
+            * OPENING without base adequacy is not a DLBTF pass;
+            * OPENING without the positive causal/load-bearing controls is not a DLBTF pass.
+22.2 Transfer-side exclusion
+The DLBTF-only component and the compound component expose related but distinct exclusion predicates.
+DLBTF-only HardNegativeExcluded requires:
+            * supportStatus = bounded;
+            * EvaluationAdequate.
+That predicate is the negative-exclusion surface used by the DLBTF-only IdentitySupported theorem.
+The compound predicate TransferExcludedAtSeat is broader. It requires EvaluationAdequate plus either:
+            * ConstitutiveFaceViolated;
+            * or supportStatus = bounded.
+The OPENING-specific controls are not required for a competent BOUNDED exclusion route.
+That is why OpeningControlsAdequate is not part of generic EvaluationAdequate.
+22.3 Role-dependent interpretation
+At a required positive or validly opened holdout:
+TransferExcludedAtSeat
+can supply a DLBTF necessity failure.
+At a negative comparator, the same transfer-side exclusion can remove that comparator from the compound sufficiency challenge.
+The DLBTF-only HardNegativeExcluded predicate performs the narrower bounded-transfer exclusion job for hardNegative seats in the DLBTF-only theorem.
+The machine predicate locates the formal condition.
+The frozen scientific role determines how the result bears on the identity claim.
+22.4 DLBTF execution compression
+For each decisive seat, the transfer-side execution therefore asks, in order:
+            1. Was the scientific object, role, scope, β rule, enlargement rule, representation plan, and closure-accounting rule frozen lawfully?
+            2. Was β actually qualified?
+            3. Are the four DLBTF constitutive faces adjudicated?
+            4. Is transfer support BOUNDED, OPENING, or UNRESOLVED?
+            5. Is the base transfer evaluation adequate?
+            6. If OPENING is claimed, do causal novelty, suppression, matched sham, and restoration/replacement also close?
+            7. What does that located result mean given the independently frozen role of the seat?
+Only after those questions are answered does the DLBTF side carry identity-level weight.
+The next layer is HFN: the independent history-family burden that asks whether the same β-qualified regime supports a genuinely nondegenerate realized history family or is exhausted by a dynamically thin recurrent class.
+23. HFN — the history-side question
+History-Family Nondegeneracy asks a different question from DLBTF.
+DLBTF asks what causally sufficient transfer support is required for the β-relevant regime burden.
+HFN asks whether the same β-qualified regime supports a genuinely nondegenerate family of realized histories, or whether its admissible histories collapse onto a dynamically thin recurrent family at the frozen scientific level.
+The operative question is:
+Does the regime itself sustain distinct realized continuations that remain within the same β-qualified regime and escape exhaustion by the preregistered thin recurrent class?
+HFN is not established by dynamical complexity in the abstract.
+In particular, none of the following is sufficient by itself:
+            * a positive Lyapunov exponent;
+            * sensitive dependence;
+            * aperiodicity;
+            * many initial conditions;
+            * many forcing realizations;
+            * stochastic forcing;
+            * a large state space;
+            * a large number of observed trajectories.
+Those facts may contribute evidence.
+They do not perform the whole HFN job.
+23.1 The history-side freeze
+Before decisive histories are inspected, the scientific protocol fixes the objects and rules needed to interpret them.
+The released compound entry surface carries this freeze explicitly through:
+            * historyPhysicalScopeAligned
+            * historySeatLevelPinned (seat)
+            * historyFamilyDefinitionFrozen (seat)
+            * historyFidelityRuleFrozen (seat)
+            * perturbationNeighborhoodFrozen (seat)
+            * symmetryPhaseTimeQuotientFrozen (seat)
+            * recurrentTemplateClassFrozen (seat)
+            * endogenousVariationCriterionFrozen (seat)
+            * historyRepresentationPlanFrozen (seat)
+            * historyRepresentationCompetenceCriterionFrozen (seat)
+            * historyDecisionRuleFrozen (seat)
+            * boundaryLevelRuleFrozen (seat)
+            * antiReplicationCriterionFrozen (seat)
+            * compoundPreOutcomeIntegrity
+These fields protect information order.
+They do not themselves establish HFN.
+The scientific execution must still produce the evidence that allows the frozen rules to return a history-family status.
+23.2 Reference-state and perturbation discipline
+Each decisive case begins from a preregistered neighborhood of β-qualified reference states.
+The perturbation neighborhood is also frozen.
+The purpose is not simply to generate many trajectories.
+The purpose is to ask whether nearby admissible realizations can separate into genuinely distinct same-regime continuations under the regime’s own dynamics.
+A perturbation that moves the system into another physical regime does not establish HFN for the original one.
+A collection of trajectories that differ only because they were assigned different external labels does not establish HFN either.
+23.3 Quotient before plurality
+Raw coordinate difference is not enough to establish distinct history.
+Two trajectories related only by an equivalence that the experiment has declared irrelevant—such as an allowed spatial symmetry, phase displacement, or time shift—must not be counted as separate histories merely because their coordinates differ.
+The frozen:
+symmetryPhaseTimeQuotientFrozen (seat)
+burden therefore precedes the decisive history result.
+HFN plurality is assessed after the declared quotient has done its work.
+23.4 Recurrent-template discipline
+The thin recurrent comparison class is also fixed before decisive histories are interpreted.
+The purpose is not to enumerate every recurrent solution that might exist.
+That would make HFN depend on proving the absence of an undiscovered orbit.
+Instead, the experiment freezes a scientifically competent recurrent-template class and a recurrence rule sufficient to discriminate the claimed history-family burden at the declared scope and horizon.
+Adequate discrimination is required.
+Exhaustive enumeration is not.
+24. The five HFN constitutive faces
+The released compound adapter represents five separate HFN faces:
+            * realizedHistoryFamily
+            * sameRegimePlurality
+            * endogenousDynamicalSeparation
+            * recurrenceNonExhaustion
+            * regimeLevelContinuation
+They are separately adjudicated because each performs a distinct scientific job.
+24.1 Realized-history family
+HFN requires a family of realized histories rather than one selected trajectory.
+The scientific record must establish that the assay actually contains multiple realized continuations answerable to the frozen history-family definition.
+One formal orbit, one reference trajectory, or one hypothetical continuation is not a history family.
+24.2 Same-regime plurality
+The multiple histories must remain members of the same independently established β-qualified regime.
+Plurality created by comparing different regimes does not establish HFN for either one.
+The requirement is therefore stronger than:
+there exist different trajectories.
+It is:
+there exist distinct admissible histories of the same regime.
+24.3 Endogenous dynamical separation
+The relevant separation must arise through the regime’s own registered dynamics.
+Variation attributable only to:
+            * a different forcing label;
+            * a random-seed label;
+            * a bookkeeping label;
+            * a coordinate transformation;
+            * another externally imposed distinction
+does not automatically establish endogenous history-family nondegeneracy.
+Random forcing may be part of the physical system.
+It may not answer the endogenous-variation burden merely by generating different paths.
+24.4 Recurrence non-exhaustion
+The realized same-regime histories must not be exhausted by the frozen thin recurrent-template class after the declared quotient.
+This is stronger than showing local trajectory separation.
+An unstable periodic orbit may have expanding directions while still remaining one recurrent object.
+A positive Lyapunov exponent therefore does not by itself establish recurrence non-exhaustion.
+The history-family evidence must show that the admissible realized continuations cannot all be absorbed into the frozen thin recurrent class under the preregistered recurrence rule.
+24.5 Regime-level continuation
+The distinction between histories must persist long enough to remain a fact about regime continuation rather than a short-lived perturbation that immediately collapses back onto one thin itinerary.
+The observation horizon is therefore part of the frozen scientific design.
+A transient separation is not automatically a regime-level history-family result.
+24.6 HFN face states
+Each face is represented by a per-seat historyFaceState using the machine vocabulary:
+            * discharged
+            * violated
+            * open
+HistoryFacesPass requires the five HFN faces to be discharged.
+HistoryFaceViolated locates at least one explicitly violated HFN face at a seat.
+A competent HFN constitutive-face violation can serve as a local identity falsifier only when HistoryEvaluationAdequate is independently satisfied.
+An open face remains unresolved.
+As on the transfer side, the raw word violated does not by itself determine the global scientific disposition.
+25. History-family status
+For each applicable seat, the HFN scientific status is exactly one of:
+            * NONDEGENERATE
+            * RECURRENT-THIN
+            * UNRESOLVED
+The machine field is:
+historyStatus.
+Its corresponding constructors are:
+            * nondegenerate
+            * recurrentThin
+            * unresolved
+These are three distinct scientific outcomes.
+25.1 NONDEGENERATE
+NONDEGENERATE requires positive evidence that the β-qualified regime supports a realized family whose members:
+            * satisfy the frozen history-family definition;
+            * remain within the same regime;
+            * separate through the registered endogenous dynamics;
+            * remain distinct after the frozen symmetry, phase, and time-shift quotient;
+            * are not exhausted by the frozen thin recurrent-template class;
+            * persist as distinct continuations over the declared regime-level horizon.
+The burden is positive.
+NONDEGENERATE is not inferred merely because recurrence exhaustion could not be demonstrated.
+25.2 RECURRENT-THIN
+RECURRENT-THIN also requires positive evidence.
+It means that a competent, adequately powered history assay establishes that the β-qualified history family is exhausted by the declared dynamically thin recurrent or quasirecurrent class at the frozen physical level and observation horizon.
+RECURRENT-THIN is not inferred merely because branching was difficult to detect.
+Failure to observe nondegeneracy is not positive evidence of recurrence collapse.
+25.3 UNRESOLVED
+UNRESOLVED means that neither positive history claim has been earned.
+Examples include:
+            * inadequate observation horizon;
+            * unresolved disagreement between competent history representations;
+            * insufficient power;
+            * an inadequate recurrence diagnostic;
+            * failure to distinguish endogenous from externally imposed variation;
+            * unresolved β qualification.
+UNRESOLVED is not a midpoint between NONDEGENERATE and RECURRENT-THIN.
+It is the statement that the scientific evidence has not competently established either one.
+26. HFN evaluation adequacy
+Before a history status can carry identity-level weight, the released compound package requires:
+HistoryEvaluationAdequate.
+That predicate requires discharge of:
+            * historyAdjudication
+            * historyRepresentationAdequacy
+            * historyPowerAdequacy
+            * recurrenceExhaustionAdequacy
+            * the same shared BetaQualifiedAtSeat already used by DLBTF
+The HFN assay therefore does not get an independent fidelity escape route.
+26.1 History adjudication
+historyAdjudication records that the history-family verdict was reached competently under the frozen HFN decision rule.
+The historyStatus field says what scientific status was returned.
+historyAdjudication says whether that status is competent for identity use.
+26.2 History representation adequacy
+At least two competent history representations are required by the frozen plan.
+Their raw observables need not be identical.
+What matters is whether the independently competent representations support the same history-family conclusion under the preregistered comparison rule.
+If one competent representation supports NONDEGENERATE while another cannot be reconciled with it under the frozen rule, the executor may not simply select the preferred representation.
+The scientific status remains unresolved until the disagreement is lawfully resolved.
+26.3 History power
+The history assay must have sufficient power to support the claim being made.
+This includes the appropriate ensemble size, horizon, uncertainty treatment, numerical competence, and other domain-owned requirements specified by the frozen protocol.
+An apparent absence of branching under an underpowered assay cannot establish RECURRENT-THIN.
+An apparent branching event below the required evidentiary threshold cannot establish NONDEGENERATE.
+26.4 Recurrence-exhaustion adequacy
+The recurrence rule must be competent to distinguish:
+            * same-regime history-family non-exhaustion;
+            * exhaustion by the declared thin recurrent class.
+This burden is represented by:
+recurrenceExhaustionAdequacy.
+Failure here is an adjudication blocker.
+It is not itself evidence that the regime is recurrent-thin.
+26.5 HFN pass
+The released predicate:
+HFNPassAtSeat
+requires:
+            * HistoryFacesPass;
+            * historyStatus = nondegenerate;
+            * HistoryEvaluationAdequate.
+All three are required.
+A NONDEGENERATE status without the five constitutive-face burden is not an HFN pass.
+A NONDEGENERATE status without evaluation adequacy is not an HFN pass.
+26.6 HFN exclusion
+The released predicate:
+HFNExcludedAtSeat
+provides the competent history-side exclusion route.
+It requires:
+HistoryEvaluationAdequate
+plus either:
+            * HistoryFaceViolated;
+            * or historyStatus = recurrentThin.
+UNRESOLVED is deliberately not an exclusion result.
+At a required positive or validly opened holdout, competent HFN exclusion can defeat HFN necessity.
+At an appropriate negative comparator, the same history-side exclusion can validly remove that comparator from the sufficiency challenge.
+27. Anti-replication
+The compound package places one further burden between a DLBTF OPENING result and a complete positive compound pass:
+anti-replication.
+Its entry rule is frozen through:
+antiReplicationCriterionFrozen (seat).
+Its downstream adjudication appears as:
+antiReplicationAdequacy (seat).
+The released pass predicate is:
+AntiReplicationAdequate.
+Its job is to prevent an apparent opening result from receiving compound identity weight when the observed growth can be explained by replication, factorization, or another preregistered non-novel construction.
+This burden is related to the DLBTF causal-novelty controls but is kept explicitly visible at the compound level.
+27.1 Anti-replication failure
+The released machine certificate:
+AntiReplicationFail
+locates a required identity seat whose antiReplicationAdequacy burden is violated.
+In the compound positive route, that burden gates use of the DLBTF OPENING result.
+Its meaning is blocking, not falsifying.
+An anti-replication failure does not by itself establish:
+            * BOUNDED;
+            * RECURRENT-THIN;
+            * failure of DLBTF necessity;
+            * failure of HFN necessity;
+            * NOT CLOSED.
+It says that the affected OPENING result cannot carry compound identity weight.
+Absent another independently earned adverse result, the affected route remains scientifically open.
+28. External-mimic provenance
+The synthetic false-substitute seat has one additional burden not shared by ordinary hard negatives.
+The released machine status is:
+PhysicalProvenanceStatus.
+Its scientific states are:
+            * requiredProvenanceSatisfied
+            * requiredProvenanceFailed
+            * unresolved
+These are domain-supplied scientific statuses.
+Lean does not determine which one is physically true.
+28.1 Why provenance is separate
+A synthetic system may reproduce:
+            * statistics;
+            * spectra;
+            * apparent history diversity;
+            * other turbulence-like outputs
+without instantiating the physical provenance required by the declared Navier–Stokes identity claim.
+The package therefore does not require N5 to fail DLBTF or HFN merely to remain a false substitute.
+Competent failure of the required physical provenance is an independent licensed exclusion route.
+28.2 Provenance adjudication adequacy
+The machine burden:
+externalMimicProvenanceAdjudication (seat)
+records whether the provenance question itself has been competently adjudicated.
+The released predicate:
+ProvenanceEvaluationAdequate
+requires that burden to be discharged.
+A provenance status without competent provenance adjudication does not carry the intended scientific weight.
+28.3 Provenance exclusion
+The released predicate:
+ProvenanceExcludedAtSeat
+requires:
+            * ProvenanceEvaluationAdequate;
+            * provenanceStatus = requiredProvenanceFailed.
+That is a valid exclusion route for an external mimic.
+It does not relabel the mimic as BOUNDED or RECURRENT-THIN.
+The provenance result remains a separate scientific reason for exclusion.
+28.4 External-mimic exclusion
+The released predicate:
+ExternalMimicExcluded
+is satisfied if at least one scientifically licensed exclusion route is established:
+            * TransferExcludedAtSeat;
+            * HFNExcludedAtSeat;
+            * ProvenanceExcludedAtSeat.
+The package therefore preserves heterogeneous failure.
+An external mimic does not have to fail every burden.
+One competent licensed exclusion route is enough.
+28.5 External-mimic sufficiency pressure
+The dangerous case is represented by:
+ExternalMimicSufficiencyPass.
+It requires:
+            * CompoundPassAtSeat;
+            * ProvenanceEvaluationAdequate;
+            * provenanceStatus = requiredProvenanceSatisfied.
+If an independently admissible external mimic reaches that state, it has survived the complete applicable criterion while also satisfying the required provenance burden.
+That is a sufficiency counterexample.
+It cannot be converted into an exclusion by changing its role or provenance rule after the result.
+28.6 Unresolved provenance
+If an external mimic otherwise passes the compound criterion but:
+            * provenance status remains unresolved;
+            * provenance adjudication remains open;
+            * provenance adjudication is violated;
+the released machine package can expose:
+ExternalMimicProvenanceOpen.
+That state is a blocker.
+It is neither:
+            * a valid exclusion;
+            * nor a sufficiency counterexample.
+Absent another earned adverse result, the scientific disposition remains open.
+29. Compound adjudication at one seat
+DLBTF and HFN are adjudicated separately first.
+The compound layer combines them only after their own scientific states and adequacy burdens have been established.
+29.1 Complete positive compound pass
+The released predicate:
+CompoundPassAtSeat
+requires:
+            * DLBTFPassAtSeat;
+            * AntiReplicationAdequate;
+            * HFNPassAtSeat.
+The conjunction is strict.
+A seat does not pass the complete candidate because one side is especially strong.
+DLBTF cannot substitute for HFN.
+HFN cannot substitute for DLBTF.
+Anti-replication cannot be omitted merely because the two primary status labels are favorable.
+29.2 Hard-negative exclusion
+For a seat whose theorem-facing role is:
+SeatRole.hardNegative
+the released predicate:
+CompoundHardNegativeExcluded
+requires either:
+            * TransferExcludedAtSeat;
+            * HFNExcludedAtSeat.
+The negative does not have to fail both conjuncts.
+This reflects the logic of a necessary-and-sufficient conjunction.
+One established necessary-conjunct failure is sufficient to exclude the comparator.
+29.3 External-mimic exclusion
+For:
+SeatRole.externalMimic
+the wider:
+ExternalMimicExcluded
+predicate applies.
+It allows:
+            * transfer-side exclusion;
+            * history-side exclusion;
+            * provenance exclusion.
+That difference is why externalMimic is not merely another spelling of hardNegative.
+29.4 Boundary coherence at the machine surface
+The earlier scientific boundary distinction between B1a and B1b is carried machine-side through:
+BoundaryLevelCoherent.
+The predicate requires:
+            * boundaryLevelCoherence = discharged;
+            * the shared BetaQualifiedAtSeat.
+Its job is not to prescribe the scientific history statuses.
+It does not require in advance that:
+            * B1a be RECURRENT-THIN;
+            * B1b be NONDEGENERATE.
+It requires that each scientific object retain:
+            * its own identity;
+            * its own frozen level;
+            * its own level-specific adjudication;
+            * no post-result substitution between isolated-object and containing-regime descriptions.
+The machine role boundarySeat therefore carries a coherence burden, not a preferred answer pair.
+29.5 Positive roles and holdouts
+Core positives and validly opened holdouts both enter the final theorem-facing positive route as:
+SeatRole.positiveCore.
+For either one, the machine requires:
+CompoundPassAtSeat.
+The scientific record remains responsible for preserving the distinction between:
+            * development positive;
+            * protected holdout opened for decisive adjudication.
+The theorem-facing burden is the same.
+The information-order history is not.
+29.6 One-seat result compression
+For one decisive seat, the complete compound workflow is therefore:
+scientific identity and role fixed
+→ β qualified
+→ DLBTF adjudicated
+→ HFN adjudicated
+→ anti-replication adjudicated where OPENING is used
+→ provenance adjudicated where external-mimic status requires it
+→ boundary coherence retained where boundary status applies
+→ role-specific compound predicate evaluated.
+The machine then exposes a located formal result.
+That result still does not, by itself, determine the global scientific disposition.
+The next layer asks how located violated, open, adverse, blocker, invalid, redundancy, and residual-identity results route into the package’s three final scientific dispositions.
+30. VIOLATED is burden-specific
+The generic machine state:
+Disposition.violated
+does not have one universal scientific meaning.
+Its consequence depends on the burden at which it appears.
+The released turbulence package therefore assigns violations to five routing classes:
+            * localIdentityFalsifier
+            * adjudicationBlocker
+            * executionInvalid
+            * redundancyChallenge
+            * residualIdentityChallenge
+The operator must identify the burden first and the route second.
+A report that says only:
+“the contract is violated”
+is incomplete.
+The required question is:
+Which burden was violated, and what job does violation of that burden perform?
+30.1 Local identity falsifier
+A competent constitutive-face violation can bear directly on the proposed identity criterion.
+On the DLBTF side, ConstitutiveFaceViolated locates at least one explicitly violated transfer-side constitutive face.
+On the HFN side, HistoryFaceViolated locates at least one explicitly violated history-side constitutive face.
+Neither predicate is sufficient by itself.
+For DLBTF, the surrounding EvaluationAdequate burden must independently support use of the face result.
+For HFN, the surrounding HistoryEvaluationAdequate burden must independently support use of the face result.
+At a required positive or validly opened holdout, a competent local identity falsifier can therefore contribute to a necessity failure.
+At an appropriate negative comparator, the same kind of local failure can instead provide a valid exclusion route.
+The machine locates the violated constitutive burden.
+The scientific role determines what that violation means for the identity claim.
+30.2 Adjudication blocker
+Many downstream scientific burdens determine whether a result is competent enough to use without themselves deciding the identity claim.
+On the DLBTF side these include, among others:
+            * supportAdjudication
+            * betaQualification
+            * representationNeutrality
+            * supportSearchAdequacy
+            * powerAdequacy
+            * parameterEnlargementRobustness
+            * causalNoveltyAdequacy
+            * suppressionAdequacy
+            * matchedShamAdequacy
+            * restorationOrReplacementAdequacy
+On the HFN / compound side they include:
+            * historyAdjudication
+            * historyRepresentationAdequacy
+            * historyPowerAdequacy
+            * recurrenceExhaustionAdequacy
+            * antiReplicationAdequacy
+            * externalMimicProvenanceAdjudication
+Violation at one of these locations means that the affected result has not earned the scientific authority required for the intended identity inference.
+It does not automatically establish the opposite scientific status.
+For example:
+            * violated causal-novelty adequacy does not establish BOUNDED;
+            * violated history power does not establish RECURRENT-THIN;
+            * violated provenance adjudication does not establish provenance failure.
+Absent some independent earned adverse result, an adjudication blocker leaves the affected global route open.
+30.3 Execution-invalid violation
+A different class protects the integrity of the confirmatory question itself.
+Universal core violations route here.
+So do violations of the frozen DLBTF entry surface, including scope, roster, seat identity, role, β definitions, enlargement rules, representation plans, closure accounting, and pre-outcome contract integrity.
+The HFN / compound entry surface behaves the same way for its frozen scope, level, family, fidelity, perturbation, quotient, recurrent-template, endogenous-variation, representation, decision, boundary, anti-replication, and pre-outcome rules.
+The compound burden:
+boundaryLevelCoherence
+also routes to execution invalidity when violated.
+The scientific meaning is:
+the affected execution route no longer represents the frozen confirmatory question.
+An invalid route cannot be used as evidence for closure.
+It is not automatically evidence against the identity criterion either.
+For example, changing the physical level after seeing the B1 result does not establish HFN failure.
+It invalidates that boundary route.
+30.4 Redundancy challenge
+The transfer-side burden:
+redundancyDiscrimination
+and the compound burden:
+compoundRedundancyDiscrimination
+perform identity-level challenge jobs.
+A violated redundancy burden means the scientific audit has earned the conclusion that a simpler established criterion already performs the relevant complete discrimination job.
+That is not a per-seat BOUNDED or RECURRENT-THIN result.
+It is a challenge to the independent identity role claimed for the proposed criterion.
+When scientifically earned, it routes globally to:
+NOT CLOSED WITHIN Σ_C.
+If the redundancy audit remains open rather than violated, the result remains unresolved.
+30.5 Residual-identity challenge
+The compound burden:
+residualIdentityNull
+asks whether DLBTF ∧ HFN has left out an independent same-level identity burden.
+A violated residual-null burden means such a burden has survived the declared tests:
+            * it performs a distinct discrimination job;
+            * it has its own physical failure condition at the same level;
+            * it changes a relevant classification;
+            * it cannot be absorbed into DLBTF or HFN.
+The machine exposes this through:
+ResidualIdentityFound.
+Like redundancy, this is not a per-seat transfer or history failure.
+It is an identity-level adverse result.
+When scientifically earned, it returns:
+NOT CLOSED WITHIN Σ_C.
+An open residual audit instead remains unresolved.
+31. Machine certificates are located statements
+The released turbulence bundle contains two related machine-certificate surfaces:
+            1. a DLBTF-only surface;
+            2. a compound DLBTF + HFN surface.
+Several names occur in both namespaces, including:
+            * IdentitySupported
+            * NecessityFail
+            * SufficiencyFail
+            * Redundant
+            * Invalid
+            * ContractNotYetAdjudicable
+The execution record should therefore qualify the namespace whenever ambiguity is possible.
+The machine layer does not collapse all possible conditions into one exclusive outcome enum.
+Several located predicates may be reportable in the same scientific record.
+A machine certificate is therefore a located formal statement, not a substitute for the final scientific disposition.
+Sections 31.1–31.11 describe the compound surface unless stated otherwise.
+31.1 Compound IdentitySupported
+The strongest supportive compound predicate is:
+IdentitySupported.
+It requires:
+            * DLBTF structural admission;
+            * HFN / compound structural admission;
+            * every positiveCore seat to satisfy CompoundPassAtSeat;
+            * every hardNegative seat to satisfy CompoundHardNegativeExcluded;
+            * every externalMimic seat to satisfy ExternalMimicExcluded;
+            * every boundarySeat to satisfy BoundaryLevelCoherent;
+            * transfer-side redundancy discrimination discharged;
+            * compound redundancy discrimination discharged;
+            * residual identity null discharged.
+Its formal meaning is:
+the supplied machine population satisfies the released compound-support contract.
+Its scientific non-meaning is equally important:
+turbulence identity has not thereby been empirically proved.
+Scientific closure still requires the separate execution-record validity described in Section 32.
+31.2 Compound NecessityFail
+The released compound predicate:
+NecessityFail
+holds when at least one:
+positiveCore
+seat is competently excluded on either:
+            * the transfer side through TransferExcludedAtSeat;
+            * the history side through HFNExcludedAtSeat.
+This is the theorem-facing pattern corresponding to failure of a necessary conjunct at a required positive.
+Because validly opened holdouts also use theorem-facing role positiveCore, the same formal route applies to them once their separate holdout protection and opening record is scientifically valid.
+A scientifically valid compound NecessityFail is enough for:
+NOT CLOSED WITHIN Σ_C.
+31.3 Compound SufficiencyFail
+The released compound predicate:
+SufficiencyFail
+holds when either:
+            * one hardNegative satisfies CompoundPassAtSeat;
+            * one externalMimic satisfies ExternalMimicSufficiencyPass.
+For an external mimic, the latter includes competent adjudication that the required physical provenance is satisfied.
+A provenance-failed external mimic is therefore excluded rather than counted as a sufficiency counterexample.
+A scientifically valid compound SufficiencyFail is enough for:
+NOT CLOSED WITHIN Σ_C.
+31.4 ExternalMimicProvenanceOpen
+ExternalMimicProvenanceOpen identifies an external mimic that otherwise carries a compound pass while the physical-provenance question remains unresolved or inadequately adjudicated.
+Its scientific job is blocking.
+It is not:
+            * a valid exclusion;
+            * a sufficiency failure.
+Absent some independent adverse result, it contributes to:
+NOT YET ADJUDICABLE WITHIN Σ_C.
+31.5 AntiReplicationFail
+AntiReplicationFail locates a required identity seat whose antiReplicationAdequacy burden is violated.
+Where that burden gates use of an OPENING result, the OPENING result cannot carry compound identity weight.
+It does not establish BOUNDED.
+It is not a necessity failure by itself.
+Absent another earned adverse result, it contributes to:
+NOT YET ADJUDICABLE WITHIN Σ_C.
+31.6 HistoryOpen
+HistoryOpen locates a required identity seat whose history-side adjudication remains scientifically unresolved.
+That can occur through an unresolved history status or through an open required history adjudication, representation, power, or recurrence-exhaustion burden.
+It is a blocker.
+It is not an HFN falsifier.
+31.7 BoundaryOpen
+BoundaryOpen means at least one required boundarySeat still has:
+boundaryLevelCoherence = open.
+It is not evidence for a preferred B1a/B1b status pair.
+It does not imply that either history-family verdict is false.
+It means the boundary test has not yet closed competently at the declared levels.
+31.8 ResidualIdentityFound and ResidualIdentityOpen
+ResidualIdentityFound
+records:
+residualIdentityNull = violated.
+When the scientific challenge beneath that machine population is valid, it is an adverse identity-level result.
+ResidualIdentityOpen
+records:
+residualIdentityNull = open.
+The first can support:
+NOT CLOSED WITHIN Σ_C.
+The second supports only:
+NOT YET ADJUDICABLE WITHIN Σ_C
+absent another independently earned adverse result.
+31.9 Compound Redundant
+The compound predicate:
+Redundant
+records violation of:
+compoundRedundancyDiscrimination.
+A scientifically earned redundancy result defeats the claimed independent identity role of the compound criterion.
+An open redundancy audit does not.
+The DLBTF-only adapter carries its own separate transfer-side redundancy challenge.
+31.10 Compound Invalid
+Compound:
+Invalid
+exposes a known structural or entry failure on one of the admission surfaces.
+Its scientific meaning is that the affected execution route cannot support the intended confirmatory inference.
+It is not automatically an empirical counterexample.
+31.11 Compound ContractNotYetAdjudicable
+Compound:
+ContractNotYetAdjudicable
+exposes unresolved required core or entry burdens before structural admission is complete, without a known admission failure already establishing invalidity.
+It does not mean that the turbulence criterion failed.
+It means the compound contract does not yet have the adjudicated inputs needed for the intended route.
+31.12 DLBTF-only certificate surface
+The DLBTF namespace remains independently executable.
+Its supportive predicate:
+IdentitySupported
+requires:
+            * DLBTFAdmitted;
+            * every positiveCore seat to satisfy DLBTFPassAtSeat;
+            * every hardNegative seat to satisfy HardNegativeExcluded;
+            * transfer-side redundancyDiscrimination discharged.
+That is a DLBTF-only support theorem.
+It is not the complete compound turbulence-identity result.
+DLBTF-only:
+NecessityFail
+holds when a positiveCore seat has EvaluationAdequate and either:
+            * ConstitutiveFaceViolated;
+            * supportStatus = bounded.
+Because DLBTF is one necessary conjunct of the proposed compound identity, a scientifically valid DLBTF necessity failure is also enough to defeat the compound necessity claim.
+DLBTF-only:
+SufficiencyFail
+holds when a hardNegative seat satisfies DLBTFPassAtSeat.
+That is DLBTF-only sufficiency pressure.
+It does not by itself establish failure of the complete DLBTF ∧ HFN sufficiency claim, because the same comparator may still be excluded by HFN at the compound level.
+The DLBTF-only surface also exposes:
+RepresentationOpen
+when a required identity seat has violated representation neutrality.
+It exposes:
+PowerOpen
+when a required identity seat has violated power adequacy or support-search adequacy.
+These are adjudication blockers.
+They do not establish BOUNDED or OPENING.
+Finally, the DLBTF-only namespace exposes:
+            * Redundant
+            * Invalid
+            * ContractNotYetAdjudicable
+for the corresponding transfer-side redundancy, admission-failure, and admission-open conditions.
+The DLBTF-only IdentitySupported theorem does not quantify externalMimic or boundarySeat roles.
+Those roles receive their complete public routing in the compound adapter.
+32. Scientific execution-record validity
+A formally populated contract can only answer for the science if the machine population faithfully represents the actual frozen-protocol record.
+Scientific closure therefore requires more than a successful formal predicate.
+The execution record must establish at least the following.
+32.1 Exact release binding
+The execution identifies:
+            * the exact compatible scientific anchor used;
+            * the exact Σ_C declaration;
+            * the exact append bundle;
+            * DLBTF component version;
+            * compound component version;
+            * Universal Kernel version;
+            * applicable companion guidance.
+32.2 Scientific standing and role fidelity
+For every seat:
+            * the physical case is identifiable;
+            * its independent scientific standing is recorded;
+            * its scientific role remains the frozen one;
+            * its theorem-facing role corresponds to that scientific job.
+A machine role cannot create the scientific standing it represents.
+32.3 Scope fidelity
+Per-seat scope membership or comparator jurisdiction is independently supported.
+An outside-scope case is not silently turned into a negative comparator.
+A scope question is not rewritten after the result.
+32.4 Faithful burden population
+Every machine state, status, and evidence witness used in the decisive formal execution must derive from the actual scientific protocol adjudication.
+The operator must not populate:
+            * discharged;
+            * opening;
+            * nondegenerate;
+            * requiredProvenanceFailed;
+            * any other convenient state
+merely because that population makes a desired theorem constructible.
+The scientific record comes first.
+The machine population follows it.
+32.5 Holdout integrity
+V1/V2 retain:
+            * their scientific holdout identity;
+            * protection history;
+            * opening event;
+            * no-tuning record.
+Their theorem-facing positiveCore role after opening does not erase that information-order burden.
+32.6 Boundary integrity
+B1a and B1b retain:
+            * distinct identities;
+            * distinct frozen levels;
+            * level-specific adjudications.
+No post-result switch between isolated object and containing regime is used to obtain a favorable result.
+32.7 External-mimic provenance fidelity
+Where the machine role is externalMimic, the physical-provenance status must correspond to the same scientific object and to a separately competent provenance adjudication.
+32.8 Pre-outcome integrity
+No decisive:
+            * scope;
+            * role;
+            * physical level;
+            * β definition;
+            * fidelity rule;
+            * comparator standing;
+            * decision rule;
+            * recurrence rule;
+            * support-accounting rule;
+            * other frozen confirmatory element
+may be changed after observing the outcome in order to rescue the candidate.
+32.9 Invalid routes remain invalid
+If an execution route is invalidated, that fact is recorded.
+The route is not silently repaired inside the same confirmatory record and then treated as if the original test had survived.
+Exploratory repair may inform a later independent execution.
+It is not the same execution.
+33. From machine result to scientific disposition
+The final scientific adjudication permits exactly three global outcomes:
+            * CLOSED WITHIN Σ_C
+            * NOT CLOSED WITHIN Σ_C
+            * NOT YET ADJUDICABLE WITHIN Σ_C
+There is no fourth global scientific state.
+The routing order matters.
+33.1 First question: has an adverse result been earned?
+Ask first whether the valid scientific record contains an earned result that defeats the proposed identity criterion.
+Qualifying routes include:
+            * scientifically valid compound NecessityFail;
+            * scientifically valid DLBTF necessity failure;
+            * scientifically valid compound SufficiencyFail;
+            * an earned transfer-side redundancy challenge;
+            * an earned compound redundancy challenge;
+            * an earned residual-identity challenge.
+If one of those results has been earned:
+NOT CLOSED WITHIN Σ_C.
+This remains true even if an unrelated burden elsewhere is unresolved.
+One valid counterexample to necessity does not become less adverse because another flow is underpowered.
+One valid sufficiency counterexample does not disappear because a boundary assay elsewhere remains open.
+An earned adverse result takes precedence over unrelated uncertainty.
+DLBTF-only sufficiency failure is not listed here as an automatic global adverse result because a hard negative that passes DLBTF may still be excluded by HFN in the complete compound test.
+33.2 Second question: has complete closure been earned?
+If no NOT CLOSED result has been earned, ask whether the complete positive closure burden has survived.
+CLOSED requires:
+            * a scientifically valid execution record;
+            * faithful machine population;
+            * every required positive core seat to satisfy both conjuncts;
+            * every required opened holdout to satisfy both conjuncts;
+            * every hard negative to be competently excluded;
+            * every external mimic to be competently excluded through a licensed route;
+            * every boundary seat to retain competent level coherence;
+            * all required transfer and HFN adequacy burdens discharged;
+            * transfer redundancy discrimination discharged;
+            * compound redundancy discrimination discharged;
+            * residual identity null discharged;
+            * compound machine IdentitySupported.
+The bridge is therefore:
+SCIENTIFICALLY VALID, FAITHFULLY POPULATED EXECUTION RECORD
++
+COMPOUND MACHINE IdentitySupported
+→
+SCIENTIFIC CLOSED WITHIN Σ_C.
+Neither side of that bridge is dispensable.
+33.3 Third question: what remains if neither condition is met?
+If no adverse result has been earned and complete closure is not licensed:
+NOT YET ADJUDICABLE WITHIN Σ_C.
+This includes cases where a required burden is:
+            * unresolved;
+            * inadmissible;
+            * underpowered;
+            * scientifically inadequate;
+            * execution-invalid.
+Examples include:
+            * unresolved β qualification;
+            * underpowered CTRR evidence;
+            * unresolved competent representation disagreement;
+            * inadequate transfer-support discrimination;
+            * failed OPENING controls;
+            * unresolved HFN history discrimination;
+            * unresolved recurrence exhaustion;
+            * anti-replication failure;
+            * unresolved external-mimic provenance;
+            * unresolved boundary coherence;
+            * unresolved required holdout;
+            * unresolved redundancy audit;
+            * unresolved residual-identity audit;
+            * frozen-scope, frozen-role, frozen-level, or pre-outcome integrity failure.
+The governing principle is:
+absence of closure is not evidence against the criterion.
+34. Report the narrowest earned result
+The scientific report should identify the narrowest burden that actually determines the disposition.
+Do not inflate a local result into a broader claim.
+Do not compress a blocker into a falsifier.
+Do not hide a falsifier behind a generic statement that the package was “inconclusive.”
+Examples follow.
+If a required positive is competently BOUNDED:
+NOT CLOSED WITHIN Σ_C — DLBTF necessity failed at [seat].
+If a required positive is competently RECURRENT-THIN:
+NOT CLOSED WITHIN Σ_C — HFN necessity failed at [seat].
+If a hard negative competently passes the complete conjunction:
+NOT CLOSED WITHIN Σ_C — compound sufficiency failed at [seat].
+If an external mimic competently passes the compound criterion and satisfies the required provenance:
+NOT CLOSED WITHIN Σ_C — external-mimic sufficiency failed at [seat].
+If a hard negative passes DLBTF but is excluded by HFN:
+DLBTF-only sufficiency pressure occurred at [seat], but the comparator was excluded by HFN at the compound level.
+That is not a global NOT CLOSED result.
+If transfer power is inadequate and no independent adverse result exists:
+NOT YET ADJUDICABLE WITHIN Σ_C — transfer power remains unresolved at [seat].
+If transfer representation neutrality is violated and no independent adverse result exists:
+NOT YET ADJUDICABLE WITHIN Σ_C — competent transfer representations remain unreconciled at [seat].
+If anti-replication fails and no independent adverse result exists:
+NOT YET ADJUDICABLE WITHIN Σ_C — the DLBTF OPENING route at [seat] is blocked by anti-replication adequacy.
+If a boundary route changes level after the result:
+NOT YET ADJUDICABLE WITHIN Σ_C — the affected boundary execution is invalid because frozen-level coherence was not preserved.
+If a simpler established criterion absorbs the complete discrimination job:
+NOT CLOSED WITHIN Σ_C — the proposed identity criterion fails the redundancy challenge.
+If an independent same-level identity burden survives:
+NOT CLOSED WITHIN Σ_C — the residual-identity null is defeated.
+Only when every declared closure burden survives may the report advance to the anchor-owned CLOSED statement.
+The next section consolidates the scientific-to-machine correspondence into the central domain-to-machine ledger so that each burden can be traced from physical job to machine field, pass/fail/open state, and global consequence.
+35. Central domain-to-machine ledger
+This section is the execution crosswalk for the package.
+Its purpose is not to restate the scientific argument developed in Sections 10–34. Its purpose is to make every load-bearing scientific or execution burden traceable to the released machine surface.
+A specialist should be able to use this ledger to answer:
+            * What scientific job is being represented?
+            * Where does that job live in the machine contract?
+            * What does Lean actually check?
+            * What remains a domain-owned scientific judgment?
+            * What does PASS, FAIL, or OPEN mean at that location?
+The ledger uses four mapping classes.
+Class A — first-class machine field, status, or burden
+The scientific or execution burden has an explicit machine representation.
+Class B — composite machine predicate
+The burden is represented by a named predicate assembled from multiple first-class states.
+Class C — domain-evidence subburden under a named machine parent
+The scientific burden is required, but Lean receives its adjudicated result through a broader named field or evidence predicate rather than through a separate first-class constructor.
+Class D — separate scientific or execution closure condition
+The burden remains mandatory for a valid scientific report but is not independently truth-made by Lean.
+There is no implicit fifth class.
+Grouped rows below compress burdens only when they share the same mapping class, authority boundary, and routing behavior.
+Grouping does not make the underlying burdens interchangeable.
+35.1 Universal translation surface
+Scientific / execution job
+	Class
+	Machine location
+	Lean checks
+	Lean does not check
+	Failure / open routing
+	Independent translation surface available
+	A
+	CoreBurden.surfaceWarrant
+	Supplied state is discharged and formal evidence witness exists
+	Whether the physical/scientific surface is actually warranted
+	violated → execution invalid; open → gating blocker
+	Physical source or carrier fixed
+	A
+	CoreBurden.sourceCarrierPin
+	Pin is formally discharged
+	Whether the pinned carrier is physically correct
+	violated → execution invalid; open → gating blocker
+	Scientific object fixed
+	A
+	CoreBurden.objectPin
+	Object pin is discharged
+	Whether the chosen object is the right scientific object
+	violated → execution invalid; open → gating blocker
+	Physical / dynamical level fixed
+	A
+	CoreBurden.levelPin
+	Level pin is discharged
+	Whether the level assignment is physically correct
+	violated → execution invalid; open → gating blocker
+	Declared scope fixed
+	A
+	CoreBurden.scopePin
+	Scope pin is discharged
+	Actual per-seat membership in Σ_C
+	violated → execution invalid; open → gating blocker
+	Scientific job preserved through translation
+	A
+	CoreBurden.structuralPreservation
+	Preservation state is discharged
+	Whether the mapping really preserves the physical job
+	violated → execution invalid; open → gating blocker
+	Desired conclusion does not create its own premises
+	A
+	CoreBurden.nonCircularity
+	Non-circularity state is discharged
+	Whether the empirical workflow was genuinely free of result leakage
+	violated → execution invalid; open → gating blocker
+	Machine translation not confused with empirical identity
+	A
+	CoreBurden.identityFirewall
+	Firewall state is discharged
+	Empirical truth of turbulence identity or broader equivalence
+	violated → execution invalid; open → gating blocker
+	The universal core is therefore an admission surface.
+Its violation does not count as a turbulence counterexample.
+It means the claimed scientific-to-machine translation route is not valid as populated.
+35.2 DLBTF entry surface
+The following are Class A entry burdens.
+They must be frozen before decisive transfer-side outcome use.
+Scope, roster, seat, and role
+            * declaredPhysicalScopePinned
+            * seatRosterFrozen
+            * seatPinned (seat)
+            * seatRoleWarrantAvailable (seat)
+Lean checks that the corresponding entry states are discharged.
+Physics and the frozen protocol remain responsible for whether:
+            * the exact Σ_C is scientifically appropriate;
+            * the physical seat really is the declared flow;
+            * the seat has the independent scientific standing assigned to it;
+            * the theorem-facing role faithfully represents that scientific job.
+Violation of any of these entry burdens routes to:
+executionInvalid.
+Open entry states block structural admission.
+β freeze
+            * betaDefinitionFrozen (seat)
+            * betaDecisionRuleFrozen (seat)
+Lean checks that the β definition and its decision rule were declared discharged as frozen entry burdens.
+Lean does not determine whether β was later physically satisfied.
+Actual β qualification is downstream.
+Violation here means the confirmatory rule itself was not held fixed.
+That is execution invalidity, not a negative β result.
+Transfer-support grammar freeze
+            * transferSupportDefinitionFrozen (seat)
+            * supportComplexityMeasureFrozen (seat)
+            * reductionClosureFamilyFrozen (seat)
+            * closureAccountingRuleFrozen (seat)
+These fields freeze:
+            * what BOUNDED / OPENING / UNRESOLVED mean;
+            * what transfer-support quantity is being measured;
+            * what bounded-interface challenger family is admissible;
+            * what hidden memory, auxiliary state, nonlocality, latent state, or other carrier must be counted.
+Lean checks the freeze states.
+It does not decide whether the scientific definitions are physically adequate.
+Violation routes to execution invalidity.
+Physical enlargement freeze
+            * lawfulEnlargementAxisPinned (seat)
+            * enlargementLadderFrozen (seat)
+Lean checks that the enlargement axis and tested ladder were frozen.
+Physics decides whether the axis genuinely enlarges the physical problem while retaining the same relevant regime family.
+Violation routes to execution invalidity.
+Representation and search freeze
+            * representationPlanFrozen (seat)
+            * representationCompetenceCriterionFrozen (seat)
+            * supportSearchCoverageCriterionFrozen (seat)
+Lean checks that the relevant plans and criteria were frozen.
+It does not decide whether:
+            * the representations are physically competent;
+            * the realized search actually attained adequate coverage.
+Those are downstream scientific questions.
+Transfer pre-outcome integrity
+preOutcomeContractIntegrity
+records that the transfer-side confirmatory architecture remained intact before decisive outcome use, including the preregistered:
+            * novelty correspondence;
+            * suppression design;
+            * matched-sham rule;
+            * restoration or competent-replacement rule.
+Violation routes to execution invalidity.
+35.3 Scientific-role bridge
+Several scientific distinctions require more than the theorem-facing SeatRole.
+Scientific object / job
+	Class
+	Machine representation
+	What remains outside Lean
+	Core positive P1–P6
+	A + C
+	SeatRole.positiveCore + role evidence
+	Independent scientific turbulence standing
+	Ordinary negative N1–N4, N6
+	A + C
+	SeatRole.hardNegative + role evidence
+	Independent comparator standing
+	N5 synthetic false substitute
+	A + C
+	SeatRole.externalMimic + role evidence
+	Physical meaning and adequacy of external-mimic standing
+	B1a / B1b
+	A + D
+	SeatRole.boundarySeat + frozen level fields
+	Scientific identity of each object and level-specific physical meaning
+	Opened V1 / V2 holdout
+	A + D
+	theorem-facing SeatRole.positiveCore
+	Holdout identity, prior protection, opening event, and no-tuning history
+	The machine role is a routing device.
+It is not the whole scientific role.
+35.4 Per-seat scope and holdout integrity
+Per-seat Σ_C membership or comparator jurisdiction — Class D
+The machine contains scope pins.
+It does not independently decide whether a physical case truly belongs inside Σ_C or is scientifically admissible as the declared comparator.
+The required record includes:
+            * scientific basis for membership or comparator standing;
+            * no post-result scope reassignment.
+Failure routes as follows:
+            * outside-scope case used as though in-scope → execution invalid;
+            * unresolved scope standing → NOT YET ADJUDICABLE absent another adverse result.
+Holdout protection and opening — Class D
+Lean has no separate holdout constructor.
+The scientific record must preserve:
+            * protected identity;
+            * information-order protection;
+            * no-tuning history;
+            * decisive opening event.
+After valid opening, the theorem-facing role is positiveCore.
+Compromised holdout integrity invalidates that confirmatory route.
+35.5 β bridge
+Scientific job
+	Class
+	Machine location
+	Lean checks
+	Lean does not check
+	Routing
+	Four-job β content: budgets, regime continuation/development, causal-response fidelity, state-distribution fidelity
+	C
+	parent = betaQualification (seat) with domain evidence
+	Supplied adjudicated β state and formal evidence witness
+	Whether all four physical jobs were actually satisfied
+	violated/open → adjudication blocker
+	Actual per-seat β qualification
+	A
+	betaQualification (seat) / BetaQualifiedAtSeat
+	Qualification state is discharged when predicates require it
+	Physical correctness of the β verdict
+	violated/open → blocker, not identity falsifier
+	One β qualification is shared by DLBTF and HFN.
+There is no second HFN-specific β verdict.
+35.6 DLBTF constitutive surface
+Scientific burden
+	Class
+	Machine location
+	PASS
+	FAIL
+	OPEN
+	Realized-history standing
+	A
+	PhysicalFace.realizedHistory
+	discharged
+	competent violated may support local identity falsifier
+	unresolved
+	Nonlinear-transfer involvement
+	A
+	PhysicalFace.nonlinearTransfer
+	discharged
+	competent violated may support local identity falsifier
+	unresolved
+	Load-bearingness
+	A
+	PhysicalFace.loadBearingness
+	discharged
+	competent violated may support local identity falsifier
+	unresolved
+	Causal continuation
+	A
+	PhysicalFace.causalContinuation
+	discharged
+	competent violated may support local identity falsifier
+	unresolved
+	Two Class B composites sit over these face states.
+PhysicalFacesPass requires every DLBTF face to be discharged.
+ConstitutiveFaceViolated locates at least one explicitly violated DLBTF face.
+Lean checks those encoded face relations.
+It does not determine whether the underlying experiments physically earned the supplied face states.
+35.7 Transfer-support status
+Scientific status
+	Class
+	Machine constructor
+	Scientific job
+	BOUNDED
+	A
+	TransferSupportStatus.bounded
+	Competent uniformly bounded physical transfer interface found
+	OPENING
+	A
+	TransferSupportStatus.opening
+	Positive finite lower-bound evidence supports opening across the declared ladder
+	UNRESOLVED
+	A
+	TransferSupportStatus.unresolved
+	Neither positive claim earned
+	The machine field is:
+supportStatus.
+Lean checks how that supplied status participates in released predicates.
+It does not adjudicate the physical support status.
+35.8 DLBTF downstream adequacy
+The following are Class A downstream burdens:
+            * supportAdjudication (seat)
+            * representationNeutrality (seat)
+            * supportSearchAdequacy (seat)
+            * powerAdequacy (seat)
+            * parameterEnlargementRobustness (seat)
+They combine with:
+BetaQualifiedAtSeat
+inside the Class B predicate:
+EvaluationAdequate.
+Lean checks the conjunction.
+Physics and the frozen protocol decide whether the underlying evidence actually discharges:
+            * transfer adjudication competence;
+            * cross-representation agreement;
+            * bounded-search coverage;
+            * power and uncertainty;
+            * physical-enlargement robustness.
+Violation or open state at these locations is an adjudication blocker.
+It does not automatically establish BOUNDED or OPENING.
+35.9 CTRR mapping
+CTRR — Class C
+CTRR does not exist as one generic Universal Kernel truth-making field.
+Its scientific evidence is carried through the parent transfer burdens:
+            * supportAdjudication;
+            * representationNeutrality;
+            * powerAdequacy;
+            * parameterEnlargementRobustness;
+            * the supplied supportStatus;
+            * for positive OPENING use, the opening-specific controls.
+Lean does not compute:
+            * the response Jacobian;
+            * the singular values;
+            * the tolerance floor;
+            * the empirical CTRR;
+            * the physical factorization validity.
+Lean checks the adjudicated states populated from that scientific record.
+35.10 OPENING-specific controls
+Scientific job
+	Class
+	Machine burden
+	Failure meaning
+	Larger-system causal content is not merely inherited, rescaled, or replicated
+	A
+	causalNoveltyAdequacy (seat)
+	blocks OPENING identity use
+	Rank-bearing directions are load-bearing
+	A
+	suppressionAdequacy (seat)
+	blocks OPENING identity use
+	Deficit is not generic intervention damage
+	A
+	matchedShamAdequacy (seat)
+	blocks OPENING identity use
+	Removed function returns under restoration or competent replacement
+	A
+	restorationOrReplacementAdequacy (seat)
+	blocks OPENING identity use
+	These combine into the Class B predicate:
+OpeningControlsAdequate.
+Violation of one of these burdens does not establish BOUNDED.
+35.11 DLBTF composite predicates
+Scientific job
+	Class
+	Machine predicate
+	Machine condition
+	Scientific consequence
+	Structural DLBTF admission
+	B
+	DLBTFAdmitted
+	universal core + required DLBTF entry burdens conform
+	permits downstream identity use
+	Competent base transfer evaluation
+	B
+	EvaluationAdequate
+	named transfer adequacy burdens + β discharged
+	permits competent support-status use
+	Competent positive OPENING controls
+	B
+	OpeningControlsAdequate
+	all four OPENING controls discharged
+	permits OPENING to carry identity weight
+	Complete positive DLBTF pass
+	B
+	DLBTFPassAtSeat
+	faces pass + OPENING + base adequacy + opening controls
+	positive transfer conjunct passes
+	DLBTF-only hard-negative exclusion
+	B
+	HardNegativeExcluded
+	BOUNDED + base EvaluationAdequate
+	used by DLBTF-only IdentitySupported for hardNegative seats
+	Compound transfer-side exclusion
+	B
+	TransferExcludedAtSeat
+	base adequacy + ConstitutiveFaceViolated or BOUNDED
+	positive → necessity pressure; negative / mimic → exclusion route
+	HardNegativeExcluded and TransferExcludedAtSeat are therefore related but not identical.
+The first belongs to the DLBTF-only hard-negative theorem surface.
+The second is the broader transfer-side exclusion predicate used by the compound adapter.
+35.12 HFN entry surface
+The following are Class A frozen entry burdens:
+            * historyPhysicalScopeAligned
+            * historySeatLevelPinned (seat)
+            * historyFamilyDefinitionFrozen (seat)
+            * historyFidelityRuleFrozen (seat)
+            * perturbationNeighborhoodFrozen (seat)
+            * symmetryPhaseTimeQuotientFrozen (seat)
+            * recurrentTemplateClassFrozen (seat)
+            * endogenousVariationCriterionFrozen (seat)
+            * historyRepresentationPlanFrozen (seat)
+            * historyRepresentationCompetenceCriterionFrozen (seat)
+            * historyDecisionRuleFrozen (seat)
+            * boundaryLevelRuleFrozen (seat)
+            * antiReplicationCriterionFrozen (seat)
+            * compoundPreOutcomeIntegrity
+Lean checks that these declared entry states are discharged where HFN admission requires them.
+It does not determine whether the underlying scientific rules are physically adequate.
+Violation routes to:
+executionInvalid.
+Open entry burdens block admission.
+35.13 HFN constitutive surface
+Scientific burden
+	Class
+	Machine face
+	PASS
+	FAIL
+	OPEN
+	Realized-history family
+	A
+	HistoryFace.realizedHistoryFamily
+	discharged
+	competent violation may support HFN exclusion
+	unresolved
+	Same-regime plurality
+	A
+	HistoryFace.sameRegimePlurality
+	discharged
+	competent violation may support HFN exclusion
+	unresolved
+	Endogenous dynamical separation
+	A
+	HistoryFace.endogenousDynamicalSeparation
+	discharged
+	competent violation may support HFN exclusion
+	unresolved
+	Recurrence non-exhaustion
+	A
+	HistoryFace.recurrenceNonExhaustion
+	discharged
+	competent violation may support HFN exclusion
+	unresolved
+	Regime-level continuation
+	A
+	HistoryFace.regimeLevelContinuation
+	discharged
+	competent violation may support HFN exclusion
+	unresolved
+	Two Class B composites sit over these face states.
+HistoryFacesPass requires every HFN face to be discharged.
+HistoryFaceViolated locates at least one explicitly violated HFN face.
+35.14 History-family status
+Scientific status
+	Class
+	Machine constructor
+	NONDEGENERATE
+	A
+	HistoryFamilyStatus.nondegenerate
+	RECURRENT-THIN
+	A
+	HistoryFamilyStatus.recurrentThin
+	UNRESOLVED
+	A
+	HistoryFamilyStatus.unresolved
+	The machine field is:
+historyStatus.
+Lean checks the supplied status as part of composite predicates.
+It does not decide which scientific status the history assay actually earned.
+35.15 HFN downstream adequacy
+The following are Class A downstream burdens:
+            * historyAdjudication (seat)
+            * historyRepresentationAdequacy (seat)
+            * historyPowerAdequacy (seat)
+            * recurrenceExhaustionAdequacy (seat)
+Together with the shared:
+BetaQualifiedAtSeat
+they form the Class B predicate:
+HistoryEvaluationAdequate.
+Violation or open state at these locations is an adjudication blocker.
+It does not establish RECURRENT-THIN.
+35.16 HFN composite predicates
+Scientific job
+	Class
+	Machine predicate
+	Condition
+	Structural HFN / compound admission
+	B
+	HFNAdmitted
+	universal core + required HFN / compound entry burdens conform
+	Competent history evaluation
+	B
+	HistoryEvaluationAdequate
+	history adjudication + representation + power + recurrence adequacy + shared β
+	Complete positive HFN pass
+	B
+	HFNPassAtSeat
+	five faces pass + NONDEGENERATE + history evaluation adequate
+	Competent HFN exclusion
+	B
+	HFNExcludedAtSeat
+	history evaluation adequate + HistoryFaceViolated or RECURRENT-THIN
+	UNRESOLVED history status is not an exclusion route.
+35.17 Anti-replication
+Scientific job
+	Class
+	Machine location
+	Routing
+	Freeze anti-replication test
+	A
+	antiReplicationCriterionFrozen (seat)
+	violated → execution invalid
+	Adjudicate anti-replication adequacy
+	A
+	antiReplicationAdequacy (seat)
+	violated/open → blocker
+	Positive anti-replication pass
+	B
+	AntiReplicationAdequate
+	required for CompoundPassAtSeat
+	Exposed failed adequacy
+	B
+	AntiReplicationFail
+	NOT YET absent another adverse result
+	Anti-replication failure does not establish BOUNDED.
+35.18 External-mimic provenance
+Scientific job
+	Class
+	Machine representation
+	Scientific meaning
+	Physical provenance status
+	A
+	PhysicalProvenanceStatus.requiredProvenanceSatisfied / requiredProvenanceFailed / unresolved
+	domain-supplied physical status
+	Provenance adjudication competence
+	A
+	externalMimicProvenanceAdjudication (seat)
+	whether provenance result is competent for use
+	Competent provenance evaluation
+	B
+	ProvenanceEvaluationAdequate
+	provenance adjudication discharged
+	Exclusion by provenance
+	B
+	ProvenanceExcludedAtSeat
+	adequate adjudication + required provenance failed
+	Full external-mimic exclusion
+	B
+	ExternalMimicExcluded
+	transfer exclusion OR HFN exclusion OR provenance exclusion
+	External-mimic sufficiency pass
+	B
+	ExternalMimicSufficiencyPass
+	compound pass + adequate provenance adjudication + required provenance satisfied
+	Unresolved provenance blocker
+	B
+	ExternalMimicProvenanceOpen
+	otherwise relevant mimic with unresolved / open / violated provenance adjudication
+	Lean does not determine physical provenance.
+It checks the conditional consequences of the supplied provenance adjudication.
+35.19 Boundary mapping
+B1a/B1b scientific identity and frozen physical level — Class D
+The machine role:
+boundarySeat
+does not encode the full scientific distinction between isolated recurrent object and containing turbulent regime.
+The execution record must preserve that distinction.
+Boundary-level rule freeze — Class A
+boundaryLevelRuleFrozen (seat)
+Boundary-level adjudication — Class A
+boundaryLevelCoherence (seat)
+Violation routes to:
+executionInvalid.
+Open state remains unresolved.
+Boundary compound predicate — Class B
+BoundaryLevelCoherent
+requires:
+            * boundaryLevelCoherence = discharged;
+            * the shared BetaQualifiedAtSeat.
+Open certificate — Class B
+BoundaryOpen
+reports unresolved boundary-level coherence.
+No machine predicate requires a predetermined B1a RECURRENT-THIN / B1b NONDEGENERATE pair.
+35.20 Redundancy and residual identity
+Scientific attack
+	Class
+	Machine burden / predicate
+	VIOLATED
+	OPEN
+	Transfer-side redundancy
+	A/B
+	redundancyDiscrimination / DLBTF-only Redundant
+	earned challenge → NOT CLOSED
+	unresolved audit
+	Full compound redundancy
+	A/B
+	compoundRedundancyDiscrimination / compound Redundant
+	earned challenge → NOT CLOSED
+	unresolved audit
+	Residual third identity burden
+	A/B
+	residualIdentityNull / ResidualIdentityFound
+	earned residual burden → NOT CLOSED
+	ResidualIdentityOpen → NOT YET absent adverse result
+	Neither redundancy nor residual identity is retroactively relabeled as BOUNDED or RECURRENT-THIN.
+35.21 Complete per-seat compound predicates
+Scientific role
+	Class
+	Machine predicate
+	Required machine result
+	Positive core or validly opened holdout
+	B
+	CompoundPassAtSeat
+	DLBTFPassAtSeat + AntiReplicationAdequate + HFNPassAtSeat
+	Hard negative
+	B
+	CompoundHardNegativeExcluded
+	TransferExcludedAtSeat OR HFNExcludedAtSeat
+	External mimic
+	B
+	ExternalMimicExcluded
+	transfer OR HFN OR provenance exclusion
+	Boundary
+	B
+	BoundaryLevelCoherent
+	frozen-level coherence + shared β
+	The same theorem-facing role may not be used to erase richer domain metadata.
+35.22 Global machine certificates
+The released bundle exposes two certificate namespaces.
+Shared names should be namespace-qualified in the execution record whenever ambiguity is possible.
+35.22.1 DLBTF-only certificate surface
+DLBTF-only certificate
+	Class
+	What Lean establishes
+	What it does not establish
+	Scientific routing
+	IdentitySupported
+	B
+	DLBTF admission + all positiveCore DLBTF passes + all hardNegative HardNegativeExcluded + transfer redundancy discharged
+	empirical turbulence identity or compound closure
+	supportive DLBTF-only machine condition
+	NecessityFail
+	B
+	one positiveCore has EvaluationAdequate and either ConstitutiveFaceViolated or BOUNDED
+	scientific truth of positive standing or evidence
+	NOT CLOSED when scientifically valid
+	SufficiencyFail
+	B
+	one hardNegative satisfies DLBTFPassAtSeat
+	failure of the complete DLBTF ∧ HFN sufficiency claim
+	DLBTF-only sufficiency pressure; compound routing still controls package-level result
+	RepresentationOpen
+	B
+	one required identity seat has representationNeutrality = violated
+	DLBTF falsification or BOUNDED
+	blocker
+	PowerOpen
+	B
+	one required identity seat has powerAdequacy = violated or supportSearchAdequacy = violated
+	DLBTF falsification, BOUNDED, or OPENING
+	blocker
+	Redundant
+	B
+	transfer redundancy discrimination is violated
+	whether the simpler criterion scientifically earns complete absorption
+	NOT CLOSED if scientifically earned
+	Invalid
+	B
+	DLBTF universal / entry admission surface has a known failure
+	empirical counterexample to DLBTF
+	affected route invalid
+	ContractNotYetAdjudicable
+	B
+	DLBTF universal / entry admission surface has no known failure but retains a required OPEN burden
+	scientific failure of DLBTF
+	NOT YET absent adverse result
+	The DLBTF-only IdentitySupported theorem does not quantify externalMimic or boundarySeat roles.
+Those receive their complete public routing in the compound adapter.
+35.22.2 Compound certificate surface
+Compound certificate
+	Class
+	What Lean establishes
+	What it does not establish
+	Scientific routing when record is valid
+	IdentitySupported
+	B
+	released compound-support conjunction holds
+	empirical turbulence closure
+	necessary machine side of CLOSED
+	NecessityFail
+	B
+	a positiveCore seat satisfies competent transfer or HFN exclusion
+	scientific truth of positive standing or evidence
+	NOT CLOSED
+	SufficiencyFail
+	B
+	hard negative fully passes, or external mimic fully passes with satisfied provenance
+	scientific truth of comparator, provenance, or evidence
+	NOT CLOSED
+	ExternalMimicProvenanceOpen
+	B
+	released provenance-blocker pattern holds
+	physical provenance result
+	NOT YET absent adverse result
+	AntiReplicationFail
+	B
+	required identity seat has violated anti-replication adequacy
+	BOUNDED or identity falsification
+	NOT YET absent adverse result
+	HistoryOpen
+	B
+	required history burden remains unresolved under encoded rule
+	which physical HFN status is true
+	NOT YET absent adverse result
+	BoundaryOpen
+	B
+	required boundary coherence remains open
+	preferred B1a/B1b status pair
+	NOT YET absent adverse result
+	ResidualIdentityFound
+	B
+	residual-null field is violated
+	scientific reality of the proposed third burden
+	NOT CLOSED if scientifically earned
+	ResidualIdentityOpen
+	B
+	residual-null field is open
+	existence or absence of a third identity burden
+	NOT YET absent adverse result
+	Redundant
+	B
+	compound redundancy-discrimination state is violated
+	whether the simpler criterion scientifically earns complete absorption
+	NOT CLOSED if scientifically earned
+	Invalid
+	B
+	either admission surface has a known structural / entry failure
+	empirical counterexample to turbulence identity
+	affected route invalid
+	ContractNotYetAdjudicable
+	B
+	either admission surface retains unresolved required entry burdens without known failure
+	scientific failure of the criterion
+	NOT YET absent adverse result
+	35.23 Faithful machine population
+Faithful scientific-to-machine population — Class D
+No single Lean theorem can establish that the supplied formal values faithfully represent the real scientific record.
+The operator must maintain an auditable crosswalk from:
+domain evidence
+→ frozen-protocol adjudication
+→ machine state / status / evidence witness.
+A formally convenient population that contradicts the scientific record is not repaired by compiling.
+This condition applies to:
+            * Disposition values;
+            * supportStatus;
+            * historyStatus;
+            * provenanceStatus;
+            * SeatRole;
+            * face states;
+            * evidence predicates;
+            * all other decisive machine inputs.
+Known unfaithful population invalidates scientific use of the resulting machine certificate.
+35.24 Release identity
+Exact release binding — Class D
+Every confirmatory record must identify:
+            * exact compatible scientific anchor;
+            * exact Σ_C text;
+            * append bundle;
+            * DLBTF component;
+            * compound component;
+            * Universal Kernel;
+            * companion guidance used;
+            * source hashes and Lean environment where practical.
+Lean can check the code actually supplied to it.
+It cannot reconstruct missing or inaccurate human release metadata after the fact.
+35.25 Final scientific disposition
+The final scientific disposition is Class D.
+There is no single Lean enum that truth-makes:
+            * CLOSED WITHIN Σ_C;
+            * NOT CLOSED WITHIN Σ_C;
+            * NOT YET ADJUDICABLE WITHIN Σ_C.
+The frozen scientific protocol returns that disposition from:
+            1. the scientifically valid execution record;
+            2. the faithfully populated machine states;
+            3. the relevant released machine certificates and blockers.
+The routing remains:
+valid earned adverse result
+→ NOT CLOSED WITHIN Σ_C
+otherwise:
+valid complete record + compound IdentitySupported
+→ CLOSED WITHIN Σ_C
+otherwise:
+NOT YET ADJUDICABLE WITHIN Σ_C.
+35.26 Closure statement
+The licensed scientific closure statement is also Class D because it is anchor-owned reporting language, not a Lean theorem about nature.
+If and only if scientific CLOSED is earned, the anchor permits:
+Within Σ_C, the preregistered evidence supports Distributed Load-Bearing Transfer Flow together with History-Family Nondegeneracy as the necessary-and-sufficient operational identity criterion for the declared canonical class of three-dimensional incompressible Newtonian turbulence.
+Compressed:
+Turbulence identity closed within Σ_C.
+The machine layer helps make the conditional route to that sentence auditable.
+It does not say the sentence on physics’ behalf.
+36. How to use the ledger
+For any disputed or unclear result, trace downward rather than guessing upward. Start with the scientific question:
+What burden was the experiment trying to answer?
+Then locate:
+            1. its mapping class;
+            2. its machine field or parent predicate;
+            3. the adjudicated state supplied to the machine;
+            4. what Lean checked about that supplied state;
+            5. what scientific truth Lean did not check;
+            6. the applicable violation or open-state route;
+            7. the narrowest scientific report licensed by the complete record.
+Where a predicate name exists in both the DLBTF-only and compound namespaces, identify which one is being used before interpreting it. If a specialist cannot perform that trace, the execution record is incomplete. The next step is operational: populate and execute the released Lean contract using this crosswalk, then record enough information that another specialist can reproduce the same formal and scientific routing from the same adjudicated record.
+37. Lean execution workflow
+The Lean package is the final conditional-audit layer of the execution.
+It should be reached only after the scientific protocol has produced the adjudicated states that will populate the contract.
+The execution order is therefore:
+scientific evidence
+→ frozen-protocol adjudication
+→ execution record
+→ machine population
+→ Lean check
+→ machine certificate
+→ scientific interpretation.
+Do not reverse that order by choosing machine states first and searching afterward for evidence that would justify them.
+37.1 Required machine load order
+The released machine dependency order is:
+            1. Structural_Flow_Universal_Kernel_v1.0.lean
+            2. Turbulence_DLBTF_HFN_Compound_Identity_APPEND_BUNDLE_v1.0.lean
+            3. execution-specific seat definitions, contract population, and theorem checks.
+In an append-style browser workflow:
+            * load or paste the Universal Kernel first;
+            * place the complete turbulence append bundle below it;
+            * place the execution-specific declarations below the bundle.
+In a module-aware Lean environment, the files may be separated differently, but the dependency order must remain equivalent.
+The turbulence bundle assumes the Universal Kernel surface already exists.
+The execution-specific layer assumes both already exist.
+A missing declaration caused by reversing that order is a software or dependency problem, not a turbulence result.
+37.2 Do not edit the released contract to fit the data
+The released Kernel and turbulence bundle should remain fixed during one confirmatory execution.
+The ordinary execution task is not:
+change the contract until the data compiles.
+It is:
+instantiate the released contract with the scientific states actually earned by the frozen protocol.
+If the scientific record cannot be represented faithfully by the released machine surface, stop and record that mismatch.
+Do not silently:
+            * add a new status;
+            * alter a predicate;
+            * weaken a conjunction;
+            * change a role;
+            * suppress an inconvenient burden;
+            * change the meaning of open or violated.
+Such a mismatch may expose a documentation error, population error, contract defect, or genuine pressure on the package.
+It is not repaired by changing the confirmatory machine contract in place.
+38. Build the execution-specific seat surface
+The turbulence contracts are generic over an executor-supplied Seat type.
+A concrete execution therefore begins by defining machine identifiers for the actual frozen scientific roster being executed.
+Conceptually:
+inductive Seat where
+  | p1
+  | p2
+  | p3
+  | p4
+  | p5
+  | p6
+  | n1
+  | n2
+  | n3
+  | n4
+  | n5
+  | n6
+  | b1a
+  | b1b
+  | v1
+  | v2
+The exact names are execution-facing identifiers.
+Their scientific meanings come from the execution record.
+The Lean constructor p1, for example, does not establish that the corresponding physical record is forced homogeneous isotropic turbulence.
+The human-readable record must bind that machine seat to the actual scientific case.
+38.1 Seat identity is not role identity
+Do not encode the roster only as four generic seats such as:
+            * positive;
+            * negative;
+            * boundary;
+            * mimic.
+That would erase the per-flow scientific record.
+Each decisive scientific case should remain separately addressable.
+Role is then supplied by:
+Contract.role.
+For example, after scientific adjudication:
+            * P1–P6 use theorem-facing positiveCore;
+            * N1–N4 and N6 use hardNegative;
+            * N5 uses externalMimic;
+            * B1a/B1b use boundarySeat;
+            * a validly opened V1/V2 uses theorem-facing positiveCore while remaining scientifically identified as a holdout in the execution record.
+The seat says which case.
+The role says what theorem-facing job that case performs.
+They are not the same field.
+39. Populate the DLBTF contract
+The transfer-side contract has the form:
+StructuralFlow.TurbulenceDLBTFIdentity.Contract Seat.
+Its machine-facing fields are:
+            * coreState
+            * coreEvidence
+            * coreWarrant
+            * domainState
+            * domainEvidence
+            * domainWarrant
+            * role
+            * roleEvidence
+            * roleWarrant
+            * faceState
+            * faceEvidence
+            * faceWarrant
+            * supportStatus
+            * supportEvidence
+            * supportWarrant
+The operator should understand these as paired surfaces.
+39.1 State fields
+The state fields contain the adjudicated machine-facing result.
+Examples include:
+            * Disposition.discharged;
+            * Disposition.violated;
+            * Disposition.open;
+            * SeatRole.positiveCore;
+            * TransferSupportStatus.opening;
+            * TransferSupportStatus.bounded;
+            * TransferSupportStatus.unresolved.
+These are not raw measurements.
+They are the machine translation of the scientific adjudication already performed.
+39.2 Evidence predicates
+Fields such as:
+            * coreEvidence
+            * domainEvidence
+            * roleEvidence
+            * faceEvidence
+            * supportEvidence
+are proposition-valued evidence interfaces.
+They allow the execution to state what must be true for the supplied machine value to be accepted formally.
+Lean does not invent these predicates.
+The executor supplies them.
+39.3 Warrant fields
+Fields such as:
+            * coreWarrant
+            * domainWarrant
+            * roleWarrant
+            * faceWarrant
+            * supportWarrant
+are Lean proofs that the supplied evidence predicate holds for the supplied machine state.
+They are machine-side witnesses.
+They are not scientific warrants in the ordinary empirical sense.
+A proof term establishes only the proposition that the execution encoded.
+39.4 The trivial-evidence trap
+Because the evidence predicates are executor-supplied propositions, it is formally possible to define a predicate that is trivially true.
+For example, a careless execution could make an evidence predicate effectively equivalent to:
+True.
+Lean could then prove the corresponding witness without examining any turbulence data.
+That may be mathematically valid Lean.
+It is not a scientifically valid population merely because it compiles.
+The confirmatory execution must therefore maintain an external auditable crosswalk between:
+            * the actual scientific evidence;
+            * the frozen protocol decision;
+            * the machine state supplied;
+            * the evidence predicate represented in Lean;
+            * the proof term satisfying that predicate.
+The scientific execution record is what prevents machine flexibility from becoming evidentiary circularity.
+39.5 Core-state population
+Populate all eight Universal Kernel core burdens from the adjudicated execution record:
+            * surfaceWarrant
+            * sourceCarrierPin
+            * objectPin
+            * levelPin
+            * scopePin
+            * structuralPreservation
+            * nonCircularity
+            * identityFirewall
+These are entry conditions.
+Do not populate them as discharged merely because the downstream turbulence evidence looks favorable.
+39.6 DLBTF domain-state population
+Populate every applicable DLBTF entry and downstream burden from the frozen protocol record.
+Use Sections 35.2, 35.5, 35.8, 35.10, and 35.20 as the exact execution crosswalk for the corresponding fields and routing jobs.
+Those sections cover:
+            * scope, roster, seat, and role freeze;
+            * β freeze and actual β qualification;
+            * transfer-support definition and complexity measure;
+            * closure family and accounting;
+            * physical enlargement;
+            * representation and bounded-search criteria;
+            * pre-outcome integrity;
+            * support adjudication;
+            * representation neutrality;
+            * power and search adequacy;
+            * enlargement robustness;
+            * OPENING-specific controls;
+            * transfer-side redundancy.
+Transfer redundancy discrimination is populated at the whole-contract level.
+Do not infer one burden from another merely because a downstream composite predicate would otherwise be convenient to construct.
+39.7 DLBTF face population
+For each applicable seat, populate:
+            * faceState s realizedHistory
+            * faceState s nonlinearTransfer
+            * faceState s loadBearingness
+            * faceState s causalContinuation
+Each state must come from the scientific face adjudication.
+Do not infer all four from supportStatus.
+A seat may have a transfer-support status while still lacking authority for a complete DLBTF pass because a constitutive face or adequacy burden remains unresolved.
+39.8 Transfer-support population
+Populate:
+supportStatus s
+with exactly one of:
+            * TransferSupportStatus.bounded
+            * TransferSupportStatus.opening
+            * TransferSupportStatus.unresolved
+Do not encode:
+            * failed OPENING evidence as bounded;
+            * failed BOUNDED searches as opening;
+            * underpowered evidence as either positive status.
+The scientific three-way result must be preserved.
+40. Populate the compound contract
+The compound contract has the form:
+StructuralFlow.TurbulenceCompoundIdentity.Contract Seat.
+It contains the already populated DLBTF contract through:
+transfer
+and adds:
+            * historyDomainState
+            * historyDomainEvidence
+            * historyDomainWarrant
+            * historyFaceState
+            * historyFaceEvidence
+            * historyFaceWarrant
+            * historyStatus
+            * historyStatusEvidence
+            * historyStatusWarrant
+            * provenanceStatus
+            * provenanceStatusEvidence
+            * provenanceStatusWarrant
+This architecture matters.
+The compound execution does not create a second transfer contract.
+It extends the same transfer-side population with the independent HFN and provenance burdens.
+40.1 HFN domain-state population
+Populate every applicable HFN / compound entry and downstream state from the scientific record.
+Use Sections 35.12 and 35.15–35.20 as the exact execution crosswalk.
+Those sections cover:
+            * physical-scope alignment;
+            * seat level;
+            * history-family definition;
+            * history fidelity;
+            * perturbation neighborhood;
+            * symmetry/phase/time quotient;
+            * recurrent-template class;
+            * endogenous-variation criterion;
+            * history representations and competence;
+            * history decision rule;
+            * boundary-level rule;
+            * anti-replication criterion;
+            * compound pre-outcome integrity;
+            * history adjudication;
+            * history representation adequacy;
+            * history power;
+            * recurrence-exhaustion adequacy;
+            * anti-replication adequacy;
+            * external-mimic provenance;
+            * boundary-level coherence;
+            * compound redundancy;
+            * residual identity null.
+These are adjudicated states.
+Lean does not derive them from turbulence data.
+40.2 HFN face population
+For each applicable seat, populate:
+            * historyFaceState s realizedHistoryFamily
+            * historyFaceState s sameRegimePlurality
+            * historyFaceState s endogenousDynamicalSeparation
+            * historyFaceState s recurrenceNonExhaustion
+            * historyFaceState s regimeLevelContinuation
+A complete NONDEGENERATE status does not substitute for explicit face adjudication.
+40.3 History-status population
+Populate:
+historyStatus s
+with exactly one of:
+            * HistoryFamilyStatus.nondegenerate
+            * HistoryFamilyStatus.recurrentThin
+            * HistoryFamilyStatus.unresolved
+Do not use negation to manufacture the opposite status.
+Failure to establish NONDEGENERATE remains UNRESOLVED unless RECURRENT-THIN has been positively earned.
+Failure to establish RECURRENT-THIN remains UNRESOLVED unless NONDEGENERATE has been positively earned.
+40.4 Provenance-status population
+For every seat, the contract contains a provenance-status field, but the field becomes scientifically material for a seat whose machine role is:
+externalMimic.
+For that seat, populate:
+            * PhysicalProvenanceStatus.requiredProvenanceSatisfied;
+            * PhysicalProvenanceStatus.requiredProvenanceFailed;
+            * PhysicalProvenanceStatus.unresolved.
+The value must follow the independently adjudicated provenance record.
+The provenance status and provenance-adjudication adequacy are separate burdens.
+A status does not become scientifically competent merely because it was entered into the structure.
+41. Ask Lean the narrowest machine question
+Once the contract is faithfully populated, inspect the narrowest relevant predicates first.
+Do not begin by asking only whether:
+IdentitySupported
+can be constructed.
+A more useful execution order follows.
+41.1 Admission
+Check whether the structural entry surfaces admit the populated contract:
+            * DLBTFAdmitted
+            * HFNAdmitted
+Failure here directs attention to core or frozen-entry conditions.
+41.2 Per-seat transfer
+Where relevant, inspect:
+            * BetaQualifiedAtSeat
+            * PhysicalFacesPass
+            * ConstitutiveFaceViolated
+            * EvaluationAdequate
+            * OpeningControlsAdequate
+            * DLBTFPassAtSeat
+            * HardNegativeExcluded
+            * TransferExcludedAtSeat
+These predicates localize the transfer-side machine result.
+HardNegativeExcluded belongs to the DLBTF-only hard-negative surface.
+TransferExcludedAtSeat belongs to the broader compound transfer-exclusion surface.
+41.3 Per-seat history
+Where relevant, inspect:
+            * HistoryFacesPass
+            * HistoryFaceViolated
+            * HistoryEvaluationAdequate
+            * HFNPassAtSeat
+            * HFNExcludedAtSeat
+            * AntiReplicationAdequate
+41.4 External mimic
+For an externalMimic, inspect where applicable:
+            * ProvenanceEvaluationAdequate
+            * ProvenanceExcludedAtSeat
+            * ExternalMimicExcluded
+            * ExternalMimicSufficiencyPass
+            * ExternalMimicProvenanceOpen
+41.5 Boundary
+For a boundary seat, inspect:
+            * BoundaryLevelCoherent
+            * BoundaryOpen, where relevant.
+41.6 Whole-contract certificates
+Only after the local conditions are understood should the operator inspect the applicable whole-contract certificates.
+DLBTF-only:
+            * IdentitySupported
+            * NecessityFail
+            * SufficiencyFail
+            * RepresentationOpen
+            * PowerOpen
+            * Redundant
+            * Invalid
+            * ContractNotYetAdjudicable
+Compound:
+            * IdentitySupported
+            * NecessityFail
+            * SufficiencyFail
+            * ExternalMimicProvenanceOpen
+            * AntiReplicationFail
+            * HistoryOpen
+            * BoundaryOpen
+            * ResidualIdentityFound
+            * ResidualIdentityOpen
+            * Redundant
+            * Invalid
+            * ContractNotYetAdjudicable
+Qualify the namespace in the execution record where shared names could be ambiguous.
+This order makes a failed or open execution diagnosable.
+A single top-level theorem attempt that fails to elaborate does not tell the scientist which burden is responsible.
+42. Using the released constructor theorems
+The bundle includes constructor theorems for several important machine certificates.
+Examples include:
+            * identity_supported_of_contract;
+            * positive-transfer necessity-failure constructors;
+            * positive-history necessity-failure constructors;
+            * hard-negative sufficiency-failure constructors;
+            * external-mimic sufficiency-failure constructors;
+            * anti-replication-failure constructors;
+            * residual-identity-found constructors;
+            * residual-identity-open constructors.
+These theorems do not supply missing scientific premises.
+They provide a formal route from already established component propositions to the named machine certificate.
+For example, a constructor theorem for necessity failure means:
+if the machine role and competent exclusion propositions are already available, Lean can construct the corresponding NecessityFail.
+It does not mean:
+Lean discovered that the physical positive fails.
+The distinction remains the same throughout the package.
+43. What a clean Lean run means
+A clean execution means that the loaded Kernel, turbulence bundle, and execution-specific declarations are accepted by the Lean environment without unresolved syntax, elaboration, type, or proof errors for the propositions actually constructed.
+For the machine contract, this can establish that:
+            * the execution-specific terms inhabit the declared types;
+            * the evidence propositions have supplied proof witnesses;
+            * the relevant composite predicates follow from the supplied states;
+            * the requested certificates are formally constructible;
+            * the released theorem dependencies compose consistently.
+That is valuable.
+It is the point of the machine layer.
+43.1 What a clean Lean run does not mean
+A clean execution does not establish the truth of the empirical premises.
+It does not establish:
+            * that the experiment was performed;
+            * that the data are real;
+            * that a seat belongs in Σ_C;
+            * that a comparator is scientifically admissible;
+            * that β was physically preserved;
+            * that a representation was competent;
+            * that CTRR was measured correctly;
+            * that BOUNDED or OPENING is physically true;
+            * that NONDEGENERATE or RECURRENT-THIN is physically true;
+            * that provenance is physically satisfied or failed;
+            * that holdout or boundary integrity was preserved;
+            * that the machine was faithfully populated from the scientific record;
+            * that the final scientific disposition is CLOSED.
+A clean compile is a machine fact.
+Scientific closure is a protocol result.
+44. What a failed Lean run means
+A failed Lean run should first be treated as a machine diagnostic.
+Do not assign physical meaning until the failure is classified.
+A failed run may indicate:
+            * a software or environment problem;
+            * a load-order problem;
+            * a syntax or namespace problem;
+            * a malformed execution structure;
+            * a missing proof of an encoded proposition;
+            * a machine population inconsistent with the released predicate;
+            * a misunderstanding of the contract;
+            * a genuine machine-contract defect.
+Only some of these cases bear on the scientific execution.
+None becomes a turbulence falsifier merely because Lean printed an error.
+Section 47 separates these failure classes more explicitly.
+45. Specialist result-return record
+Every confirmatory machine execution should return a human-readable record sufficient for another specialist to reconstruct:
+            * what scientific record was adjudicated;
+            * how it was mapped into the contract;
+            * what Lean established;
+            * what Lean did not establish;
+            * which scientific disposition was finally licensed.
+The record should contain the following.
+45.1 Execution header
+Execution ID:
+[unique identifier]
+Execution date:
+[date]
+Scientific anchor:
+[exact title and version]
+Exact Σ_C declaration:
+[verbatim execution-bound scope]
+Turbulence append bundle:
+[exact filename and version]
+DLBTF component:
+[exact version]
+Compound component:
+[exact version]
+Universal Kernel:
+[exact filename and version]
+Companion guidance:
+[version or compatible reference used]
+Lean environment / version:
+[record where available]
+Source hashes:
+[Kernel / bundle / execution file where practical]
+Scientific data / simulation record version:
+[identifier]
+Frozen roster identifier / hash:
+[identifier]
+Preregistration / freeze identifier:
+[identifier]
+Pre-outcome integrity record:
+[location / identifier]
+Overall execution-validity status before result routing:
+[VALID / INVALID / unresolved, with reason]
+45.2 Per-seat identity block
+For each seat:
+Machine seat ID:
+[identifier]
+Physical case:
+[scientific identity]
+Independent scientific standing:
+[basis / source]
+Σ_C membership or comparator jurisdiction:
+[admitted / outside / unresolved, with basis]
+Frozen scientific role:
+[core positive / ordinary negative / external mimic / boundary / protected holdout]
+Theorem-facing machine role:
+[positiveCore / hardNegative / externalMimic / boundarySeat]
+Holdout metadata, if applicable:
+            * protected family;
+            * protection status;
+            * opening event;
+            * no-tuning record.
+Boundary metadata, if applicable:
+            * B1a/B1b identity;
+            * frozen physical level;
+            * level-specific record.
+45.3 Per-seat β block
+β definition identifier:
+[record]
+β decision-rule identifier:
+[record]
+Relevant budget evidence:
+[summary / pointer]
+Reference-regime continuation/development evidence:
+[summary / pointer]
+Causal-response fidelity evidence:
+[summary / pointer]
+State-distribution fidelity evidence:
+[summary / pointer]
+Machine betaQualification:
+[discharged / violated / open]
+BetaQualifiedAtSeat:
+[yes / no]
+Narrowest β conclusion:
+[qualified / blocker / execution-integrity failure]
+45.4 Per-seat DLBTF block
+DLBTF face states:
+            * realized history:
+            * nonlinear transfer:
+            * load-bearingness:
+            * causal continuation:
+Transfer-support status:
+[BOUNDED / OPENING / UNRESOLVED]
+CTRR evidence summary, where applicable:
+            * intervention definition;
+            * response definition;
+            * representation(s);
+            * tolerance / uncertainty floor;
+            * observed lower-bound behavior;
+            * physical enlargement ladder;
+            * factorization / regularity assumptions;
+            * regime-level aggregation rule.
+Support adjudication:
+[discharged / violated / open]
+Representation neutrality:
+[discharged / violated / open]
+Bounded-interface search adequacy:
+[discharged / violated / open]
+Power adequacy:
+[discharged / violated / open]
+Physical-enlargement robustness:
+[discharged / violated / open]
+Causal novelty:
+[discharged / violated / open / not identity-used]
+Suppression:
+[discharged / violated / open / not identity-used]
+Matched sham:
+[discharged / violated / open / not identity-used]
+Restoration / competent replacement:
+[discharged / violated / open / not identity-used]
+EvaluationAdequate:
+[yes / no]
+OpeningControlsAdequate:
+[yes / no / not applicable]
+DLBTFPassAtSeat:
+[yes / no]
+HardNegativeExcluded:
+[yes / no / not applicable to role]
+TransferExcludedAtSeat:
+[yes / no]
+Any DLBTF VIOLATED route:
+[localIdentityFalsifier / adjudicationBlocker / executionInvalid / redundancyChallenge / none]
+Narrowest DLBTF scientific conclusion:
+[statement]
+45.5 Per-seat HFN block
+HFN face states:
+            * realized-history family:
+            * same-regime plurality:
+            * endogenous dynamical separation:
+            * recurrence non-exhaustion:
+            * regime-level continuation:
+History-family status:
+[NONDEGENERATE / RECURRENT-THIN / UNRESOLVED]
+History adjudication:
+[discharged / violated / open]
+History representation adequacy:
+[discharged / violated / open]
+History power adequacy:
+[discharged / violated / open]
+Recurrence-exhaustion adequacy:
+[discharged / violated / open]
+HistoryEvaluationAdequate:
+[yes / no]
+HFNPassAtSeat:
+[yes / no]
+HFNExcludedAtSeat:
+[yes / no]
+Any HFN VIOLATED route:
+[localIdentityFalsifier / adjudicationBlocker / executionInvalid / none]
+Narrowest HFN scientific conclusion:
+[statement]
+45.6 Per-seat compound controls
+Anti-replication criterion identifier:
+[record]
+Anti-replication adequacy:
+[discharged / violated / open / not applicable]
+AntiReplicationAdequate:
+[yes / no / not applicable]
+AntiReplicationFail:
+[yes / no]
+For an external mimic:
+Physical-provenance status:
+[requiredProvenanceSatisfied / requiredProvenanceFailed / unresolved]
+Provenance-adjudication adequacy:
+[discharged / violated / open]
+ProvenanceEvaluationAdequate:
+[yes / no]
+ProvenanceExcludedAtSeat:
+[yes / no]
+ExternalMimicExcluded:
+[yes / no]
+ExternalMimicSufficiencyPass:
+[yes / no]
+ExternalMimicProvenanceOpen:
+[yes / no]
+For a boundary seat:
+Boundary-level coherence:
+[discharged / violated / open]
+BoundaryLevelCoherent:
+[yes / no]
+BoundaryOpen:
+[yes / no]
+45.7 Per-seat machine conclusion
+CompoundPassAtSeat:
+[yes / no / not applicable to role]
+Role-specific exclusion predicate:
+[name and state]
+Local machine certificate(s):
+[list]
+Local execution-validity state:
+[valid / invalid / unresolved]
+Narrowest licensed local scientific statement:
+[statement]
+45.8 Global contract block
+DLBTF structural admission — DLBTFAdmitted:
+[yes / no]
+HFN structural admission — HFNAdmitted:
+[yes / no]
+Transfer redundancy discrimination:
+[discharged / violated / open]
+Compound redundancy discrimination:
+[discharged / violated / open]
+Residual identity null:
+[discharged / violated / open]
+Core-positive completion:
+[complete / incomplete, with seats]
+Opened-holdout completion:
+[complete / incomplete / not opened, with seats]
+Hard-negative exclusion completion:
+[complete / incomplete, with seats]
+External-mimic exclusion completion:
+[complete / incomplete, with seats]
+Boundary-level coherence completion:
+[complete / incomplete, with seats]
+45.9 Global machine certificate block
+Record each applicable machine predicate independently.
+Qualify the namespace for shared names.
+DLBTF-only
+IdentitySupported:
+[yes / no]
+NecessityFail:
+[yes / no; seat and route]
+SufficiencyFail:
+[yes / no; seat and route]
+RepresentationOpen:
+[yes / no; seat]
+PowerOpen:
+[yes / no; seat and failing adequacy burden]
+Redundant:
+[yes / no]
+Invalid:
+[yes / no; located burden]
+ContractNotYetAdjudicable:
+[yes / no; located burden]
+Compound
+IdentitySupported:
+[yes / no]
+NecessityFail:
+[yes / no; seat and route]
+SufficiencyFail:
+[yes / no; seat and route]
+AntiReplicationFail:
+[yes / no; seat]
+ExternalMimicProvenanceOpen:
+[yes / no; seat]
+HistoryOpen:
+[yes / no; seat]
+BoundaryOpen:
+[yes / no; seat]
+Redundant:
+[yes / no]
+ResidualIdentityFound:
+[yes / no]
+ResidualIdentityOpen:
+[yes / no]
+Invalid:
+[yes / no; located burden]
+ContractNotYetAdjudicable:
+[yes / no; located burden]
+Do not force these fields into one machine outcome if multiple located certificates are reportable.
+45.10 Scientific execution-validity block
+Before assigning the final scientific disposition, confirm:
+Exact release binding valid:
+[yes / no]
+Per-seat scientific standing valid:
+[yes / no]
+Scope / comparator jurisdiction valid:
+[yes / no]
+Machine population faithfully derived from adjudicated record:
+[yes / no]
+Holdout protection / opening integrity valid:
+[yes / no / not applicable]
+Boundary-level integrity valid:
+[yes / no / not applicable]
+External-mimic provenance mapping faithful:
+[yes / no / not applicable]
+No post-result rescue used:
+[yes / no]
+Invalid routes explicitly retained as invalid:
+[yes / no]
+Overall record valid for scientific global routing:
+[yes / no]
+45.11 Final scientific result
+Apply the routing order from Section 33.
+Final scientific disposition:
+[exactly one]
+            * CLOSED WITHIN Σ_C
+            * NOT CLOSED WITHIN Σ_C
+            * NOT YET ADJUDICABLE WITHIN Σ_C
+Narrowest determining burden or result:
+[exact seat / burden / global challenge]
+If NOT CLOSED:
+Exact earned falsifier / adverse challenge:
+[statement]
+If NOT YET ADJUDICABLE:
+Exact unresolved, inadmissible, or invalid blocker:
+[statement]
+If CLOSED:
+Licensed closure statement:
+Within Σ_C, the preregistered evidence supports Distributed Load-Bearing Transfer Flow together with History-Family Nondegeneracy as the necessary-and-sufficient operational identity criterion for the declared canonical class of three-dimensional incompressible Newtonian turbulence.
+Compressed:
+Turbulence identity closed within Σ_C.
+45.12 Exploratory work after the result
+Any amendment motivated by the observed result must be recorded separately from the confirmatory execution.
+Record:
+            * what was changed;
+            * why it was changed;
+            * whether the change affects science, adapter semantics, execution guidance, or only implementation;
+            * which future execution may use it.
+Do not rewrite the completed confirmatory record.
+A repaired future test is a new execution.
+It is not a retroactive repair of the old result.
+46. Reproducibility target
+The execution record is sufficient when another competent specialist can take:
+            * the same scientific evidence record;
+            * the same frozen protocol;
+            * the same release versions;
+            * the same adjudicated burden states;
+and independently recover:
+            * the same permitted Seat population;
+            * the same roles;
+            * the same Disposition values;
+            * the same transfer, history, and provenance statuses;
+            * the same local machine predicates;
+            * the same global machine certificates;
+            * the same execution-validity judgment;
+            * the same narrowest licensed scientific report.
+If two competent executors supplied with the same adjudicated scientific record must ask the authors which machine state they are “supposed” to enter, the companion has not yet completed its job.
+The remaining sections address what to do when that process fails and illustrate the routing with explicitly non-empirical example traces.
+47. Troubleshooting by failure type
+When an execution does not produce the expected formal or scientific result, diagnose the failure at the lowest level that actually failed.
+Do not begin by asking whether the turbulence criterion is right or wrong.
+Ask:
+What object failed to perform its declared job?
+The main failure classes are different and should remain different.
+47.1 Software or environment failure
+Examples include:
+            * parser error;
+            * syntax error;
+            * incompatible Lean environment;
+            * namespace collision;
+            * missing declaration;
+            * incorrect load order;
+            * elaboration error unrelated to the scientific population;
+            * malformed file composition.
+These are machine-environment failures.
+They have no turbulence interpretation.
+Repair the software or environment and rerun the same scientific population.
+Do not alter the scientific record to make a software problem disappear.
+47.2 Execution-structure or population mismatch
+The code may load correctly while the execution-specific object cannot satisfy the expected type or predicate.
+Possible causes include:
+            * wrong Seat mapping;
+            * wrong theorem-facing role;
+            * omitted burden;
+            * incorrect Disposition;
+            * inconsistent support or history status;
+            * missing evidence witness;
+            * evidence predicate attached to the wrong state;
+            * misunderstanding of a released predicate;
+            * transcription error between scientific record and machine population.
+The first repair target is the crosswalk:
+scientific evidence
+→ protocol adjudication
+→ machine population.
+If the crosswalk was entered incorrectly, repair the population.
+If the population faithfully represents the record but the released contract cannot represent that record, do not force a local patch.
+Record the mismatch as possible package pressure.
+47.3 Scientific adjudication blocker
+Sometimes the machine faithfully represents the scientific record and the record itself remains inadequate for the intended inference.
+Examples include:
+            * underpowered CTRR;
+            * unresolved representation disagreement;
+            * unresolved β qualification;
+            * inadequate bounded-interface search;
+            * failed OPENING control;
+            * inadequate recurrence exhaustion;
+            * unresolved history representation;
+            * unresolved external-mimic provenance;
+            * failed anti-replication adequacy.
+This is not a software problem.
+It is not a machine defect merely because Lean will not construct the desired pass predicate.
+The scientific burden remains open.
+Absent another independently earned adverse result:
+NOT YET ADJUDICABLE WITHIN Σ_C.
+47.4 Scientific identity falsifier
+A different case occurs when the record has competently earned a result that directly defeats necessity or sufficiency.
+Examples include:
+            * a required positive or validly opened holdout is competently BOUNDED;
+            * a required positive or validly opened holdout is competently RECURRENT-THIN;
+            * a required positive competently violates a constitutive DLBTF or HFN face under the required adequacy conditions;
+            * an admissible hard negative competently passes the complete conjunction;
+            * an external mimic competently passes the complete conjunction and satisfies the required provenance.
+These are not troubleshooting failures to be repaired away.
+They are scientific results.
+The appropriate response is to preserve the result and report:
+NOT CLOSED WITHIN Σ_C
+with the narrowest earned reason.
+47.5 Execution invalidity
+An execution may also fail because the confirmatory question was no longer the question that had been frozen.
+Examples include:
+            * scope changed after outcome inspection;
+            * role changed after outcome inspection;
+            * β definition changed after outcome inspection;
+            * transfer-support definition changed after outcome inspection;
+            * closure accounting changed after outcome inspection;
+            * recurrent-template class changed after outcome inspection;
+            * B1a and B1b physical levels were switched after seeing the result;
+            * a protected holdout was tuned after opening.
+An invalid execution cannot support CLOSED.
+Its result also does not automatically falsify the candidate.
+Absent another independently earned adverse result:
+NOT YET ADJUDICABLE WITHIN Σ_C — execution invalid at [located burden].
+A repaired design belongs to a new execution.
+47.6 Redundancy or residual-identity pressure
+A simpler established criterion may absorb the complete identity job.
+Or an independent same-level identity burden may survive the attempt to close on DLBTF ∧ HFN.
+Those are not software failures, ordinary blockers, or per-seat transfer/history statuses.
+If scientifically earned:
+            * redundancy defeats the independent identity role;
+            * surviving residual identity defeats completeness.
+The result is:
+NOT CLOSED WITHIN Σ_C.
+If either audit remains unresolved, the corresponding route remains open instead.
+47.7 Possible machine-contract defect
+A machine defect is suspected only after the following have been distinguished:
+            1. the Lean environment is functioning;
+            2. the released files were loaded correctly;
+            3. the scientific record is internally coherent;
+            4. the protocol adjudication is clear;
+            5. the machine population faithfully represents that adjudication;
+            6. the apparent contradiction remains in the released encoding.
+At that point record:
+            * the exact machine object;
+            * the exact scientific burden it is supposed to represent;
+            * the expected mapping;
+            * the actual encoded behavior;
+            * the capacity lost or misrepresented.
+Do not silently edit the public contract during the same confirmatory execution.
+A demonstrated turbulence-specific contract defect pressures the turbulence adapter first.
+The Universal Kernel reopens only if the demonstrated defect reaches reusable domain-neutral machine structure.
+48. Worked non-empirical traces
+The following traces are illustrative only.
+They are not simulations.
+They are not experimental results.
+They are not claims about any member of the frozen turbulence roster.
+Their sole purpose is to show how different scientific records route through the package.
+48.1 Trace A — clean positive local pass
+Assume an illustrative seat I-P has independently established scientific standing as a required positive.
+The frozen record returns:
+            * β qualification: discharged;
+            * all four DLBTF faces: discharged;
+            * transfer-support status: OPENING;
+            * base DLBTF evaluation adequacy: discharged;
+            * all OPENING-specific controls: discharged;
+            * anti-replication adequacy: discharged;
+            * all five HFN faces: discharged;
+            * history status: NONDEGENERATE;
+            * HFN evaluation adequacy: discharged.
+The faithfully populated machine contract therefore supports:
+DLBTFPassAtSeat I-P
+and:
+HFNPassAtSeat I-P
+and:
+AntiReplicationAdequate I-P.
+Hence:
+CompoundPassAtSeat I-P.
+What has been established?
+Only the local formal pass corresponding to the supplied scientific record.
+This seat alone does not establish global IdentitySupported.
+It does not establish scientific CLOSED.
+The remaining roster and global burdens still have to answer.
+48.2 Trace B — apparent opening blocked by inadequate power
+Assume illustrative seat I-P2 is a required positive.
+Suppose the observed transfer pattern trends toward OPENING, but the preregistered power criterion is not met.
+The frozen scientific protocol therefore cannot promote that pattern to a competent OPENING result.
+The confirmatory record remains:
+            * supportStatus = unresolved;
+            * powerAdequacy = violated.
+The machine cannot obtain:
+EvaluationAdequate I-P2.
+Therefore it cannot obtain:
+DLBTFPassAtSeat I-P2.
+The correct scientific interpretation is neither:
+DLBTF failed
+nor:
+BOUNDED.
+The transfer result remains unresolved because power is inadequate.
+Absent another adverse result:
+NOT YET ADJUDICABLE WITHIN Σ_C.
+This trace shows why a suggestive trend cannot substitute for an earned scientific status.
+48.3 Trace C — three external-mimic branches
+Assume illustrative seat I-M has independently established scientific standing as an external mimic.
+Branch C1 — provenance exclusion
+Suppose:
+            * DLBTF does not exclude the mimic;
+            * HFN does not exclude the mimic;
+            * provenance adjudication is adequate;
+            * required physical provenance fails.
+Then:
+ProvenanceExcludedAtSeat I-M
+holds.
+Therefore:
+ExternalMimicExcluded I-M
+holds.
+The mimic is validly excluded.
+It is not retroactively called BOUNDED or RECURRENT-THIN.
+Branch C2 — sufficiency failure
+Suppose instead:
+            * CompoundPassAtSeat I-M;
+            * provenance adjudication is adequate;
+            * required physical provenance is satisfied.
+Then:
+ExternalMimicSufficiencyPass I-M
+holds.
+The candidate criterion has admitted an admissible nonturbulent comparator.
+That supports compound:
+SufficiencyFail.
+With a scientifically valid record:
+NOT CLOSED WITHIN Σ_C.
+Branch C3 — provenance remains unresolved
+Suppose:
+            * CompoundPassAtSeat I-M;
+            * provenance remains unresolved.
+Then the mimic is neither validly excluded nor yet a competent sufficiency counterexample.
+The package exposes the provenance-open route.
+Absent another adverse result:
+NOT YET ADJUDICABLE WITHIN Σ_C — external-mimic provenance unresolved at I-M.
+The three branches differ because provenance is an independent scientific burden.
+48.4 Trace D — boundary result invalidated by level switching
+Assume two illustrative boundary records:
+            * I-Ba, an isolated recurrent object;
+            * I-Bb, its containing regime.
+Their physical levels were frozen before execution.
+Suppose a result becomes inconvenient and, after outcome inspection, the executor reinterprets I-Ba as evidence about the containing regime.
+The scientific problem is not that the “wrong” HFN status appeared.
+The problem is that the frozen object level was changed.
+The relevant route is:
+executionInvalid.
+The record cannot use that boundary execution to support CLOSED.
+It also cannot call the level switch a necessity failure.
+Absent another adverse result:
+NOT YET ADJUDICABLE WITHIN Σ_C — boundary execution invalid because frozen physical level was not preserved.
+48.5 Trace E — adverse result outranks unrelated uncertainty
+Assume one scientifically valid required positive, I-P3, is competently BOUNDED.
+That establishes a DLBTF necessity failure.
+Elsewhere, another seat has unresolved HFN power.
+The unresolved second seat does not weaken the first result.
+The global order asks first whether an adverse result has been earned.
+It has.
+Therefore:
+NOT CLOSED WITHIN Σ_C — DLBTF necessity failed at I-P3.
+The package is not reported as merely “inconclusive” because an unrelated burden remains open.
+This trace illustrates adverse-result precedence.
+49. Claim ceiling
+Even a fully CLOSED result remains scoped.
+The strongest licensed scientific statement is:
+Within Σ_C, the preregistered evidence supports Distributed Load-Bearing Transfer Flow together with History-Family Nondegeneracy as the necessary-and-sufficient operational identity criterion for the declared canonical class of three-dimensional incompressible Newtonian turbulence.
+Compressed:
+Turbulence identity closed within Σ_C.
+The word closed here names an empirical protocol disposition.
+It is not a mathematical proof over every possible realization.
+Later competent counterevidence may reopen the scientific conclusion.
+49.1 What CLOSED would establish
+A valid CLOSED result would establish that, under the declared scope, roster, holdouts, controls, and adjudication rules:
+            * the required independently established turbulent regimes survived both DLBTF and HFN;
+            * the required holdouts survived;
+            * the declared nonturbulent comparators were competently excluded;
+            * the external mimic was competently handled;
+            * the recurrent boundary remained level-coherent;
+            * the redundancy challenge was discharged;
+            * no independent residual identity burden survived the declared audit.
+That is a substantial class-level operational identity claim.
+It remains the claim actually tested.
+49.2 What CLOSED would not establish
+Closure would not:
+            * solve three-dimensional Navier–Stokes existence or regularity;
+            * provide closed-form solutions for arbitrary turbulent flows;
+            * provide every useful engineering closure;
+            * predict every turbulent statistic;
+            * determine every transition threshold;
+            * explain every intermittency exponent;
+            * prove that CTRR diverges under indefinite enlargement;
+            * prove that no finite turbulence model can exist;
+            * prove that the measured CTRR is a globally minimal model dimension;
+            * establish the criterion for every untested realization as a mathematical theorem;
+            * establish the criterion outside Σ_C;
+            * establish that turbulence is “random” in an unrestricted sense;
+            * establish that exact coherent structures are dynamically irrelevant;
+            * establish that recurrent structures cease to matter;
+            * convert Lean conformance into empirical truth;
+            * establish that Structural Flow has mathematically solved turbulence.
+49.3 DLBTF-specific ceiling
+A finite powered OPENING result supports the experimentally tested lower-bound claim.
+It does not license:
+lim λ→∞ Lβᴿ(X, λ) = ∞.
+A compact finite model may remain useful or predictive while still failing the particular β-preserving bounded physical transfer-interface burden tested here. Those are different claims.
+49.4 HFN-specific ceiling
+A NONDEGENERATE HFN result does not claim that recurrent solutions are unimportant.
+It claims only that, under the frozen assay, the independently established regime is not exhausted by the declared dynamically thin recurrent class.
+Recurrent structures may remain central to turbulence dynamics.
+49.5 Scope-extension ceiling
+A CLOSED result does not automatically transfer to:
+            * compressible turbulence;
+            * rotating turbulence;
+            * strongly stratified or buoyant turbulence;
+            * rough-wall turbulence;
+            * strongly curved or separated-wall regimes;
+            * multiphase or reactive turbulence;
+            * MHD or plasma turbulence;
+            * quantum or superfluid turbulence;
+            * generic spatiotemporal chaos.
+Any extension requires a new scientifically justified scope relation and compatibility adjudication.
+50. Companion non-goals
+This companion is deliberately narrower than a general turbulence treatise.
+It does not:
+            * redraft the scientific anchor;
+            * redefine DLBTF;
+            * redefine HFN;
+            * add a third identity conjunct;
+            * enlarge Σ_C;
+            * select an unchosen V1 or V2 implementation;
+            * provide missing empirical data;
+            * claim that the proposed experiment has been executed;
+            * claim an empirical turbulence result;
+            * turn machine cleanliness into physical evidence;
+            * make Lean authoritative over turbulence physics;
+            * teach Structural Flow as a whole;
+            * replace turbulence-domain judgment;
+            * replace a preregistration;
+            * replace an experimental methods paper;
+            * become another turbulence literature review.
+If execution exposes a genuinely missing scientific burden, the correct response is to locate the pressure.
+Do not silently invent a new burden inside the companion.
+51. Maintenance and reopening discipline
+The companion may be improved without reopening every other package object.
+A companion-only revision is sufficient when the change:
+            * clarifies execution instructions;
+            * improves examples;
+            * repairs wording;
+            * improves troubleshooting;
+            * improves result-record structure;
+            * makes an existing scientific-to-machine mapping clearer without changing its semantics.
+The turbulence adapter requires compatibility review when a change affects:
+            * machine-relevant burden meaning;
+            * status space;
+            * role routing;
+            * predicate dependency;
+            * violation routing;
+            * encoded closure logic.
+The scientific anchor requires review when the pressure changes:
+            * the scientific object;
+            * Σ_C;
+            * DLBTF or HFN meaning;
+            * the roster’s scientific job;
+            * empirical adjudication rules;
+            * the global scientific disposition logic;
+            * the claim ceiling.
+The Universal Kernel requires review only when the demonstrated pressure reaches reusable domain-neutral formal structure.
+A local difficulty should remain local when local repair is sufficient.
+52. Final operator checklist
+Before reporting a confirmatory result, the executor should be able to answer all of the following without author intervention.
+Scientific object
+            * What exact physical question is being tested?
+            * What is Σ_C?
+            * Which cases are positives, negatives, external mimics, boundaries, and holdouts?
+            * What independent scientific standing does each case have?
+β
+            * What four jobs does β perform for each seat?
+            * Were its definition and decision rule frozen?
+            * Was β actually qualified?
+DLBTF
+            * What physical transfer interface is being tested?
+            * What constitutes physical enlargement?
+            * What establishes BOUNDED?
+            * What positive evidence establishes OPENING?
+            * What exactly does CTRR lower-bound?
+            * Were causal novelty, suppression, matched sham, and restoration/replacement handled where OPENING carries identity weight?
+HFN
+            * What realized history family is under test?
+            * What quotient is applied?
+            * What recurrent-template class is frozen?
+            * What establishes NONDEGENERATE?
+            * What establishes RECURRENT-THIN?
+            * What remains UNRESOLVED?
+Special routes
+            * Was anti-replication adjudicated where required?
+            * Was N5 provenance adjudicated independently?
+            * Were B1a and B1b kept at their frozen levels?
+            * Were holdouts protected until opening?
+Machine population
+            * Which scientific state produced each machine state?
+            * Which evidence predicate corresponds to each scientific record?
+            * What does each Warrant proof actually witness?
+            * Can another executor reproduce the same population from the same record?
+Lean interpretation
+            * Which local predicates hold?
+            * Which blockers or adverse certificates hold?
+            * Which namespace does each shared certificate name belong to?
+            * What does Lean establish?
+            * What does Lean not establish?
+            * Is any failure merely environmental or representational?
+Global reporting
+            * Has an earned NOT CLOSED result occurred?
+            * If not, has every requirement for CLOSED been met?
+            * If neither, what exact burden keeps the result NOT YET ADJUDICABLE?
+            * What is the narrowest scientifically licensed sentence?
+53. Exit criterion
+The companion has completed its job when two competent independent executors, supplied with:
+            * the same scientific evidence;
+            * the same frozen protocol;
+            * the same adjudicated scientific record;
+            * the same released package;
+can independently determine:
+            * the same permitted machine population;
+            * the same relevant local predicates;
+            * the same machine certificates and blockers;
+            * the same execution-validity judgment;
+            * the same global scientific disposition;
+            * the same narrowest licensed scientific report.
+They need not agree with the proposed turbulence identity.
+They need to be able to determine what the package says the evidence means without asking the authors for an interpretive ruling.
+That is the purpose of the companion:
+to make the scientific question, the machine translation, and the limits of the answer independently executable and auditable.
+________________
+AI Use Disclosure
+Artificial intelligence tools were used during the development of this work for research assistance, adversarial review, conceptual organization, drafting support, editing, and formalization support. The author directed the research program, selected and evaluated the scientific claims and sources, determined the package architecture and its scope, and takes responsibility for the final content.
